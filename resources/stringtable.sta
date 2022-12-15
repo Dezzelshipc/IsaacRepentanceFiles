@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <stringtable>
-  <info version="1.0" modified="Tue Nov 08 17:25:28 2022" modifiedby="script" />
+  <info version="1.0" modified="Wed Dec 07 12:31:38 2022" modifiedby="script" />
   <languages>
     <language id="21" index="0" name="Key" />
     <language id="0" index="1" name="English" />
@@ -2900,7 +2900,7 @@
       <string>クロス涙</string>
       <string>십자가 공격</string>
       <string>十字射击</string>
-      <string>Пересекающиеся слезы</string>
+      <string>Перекрёстные слёзы</string>
       <string>Kreuztränen</string>
       <string>Lágrimas en cruz</string>
       <string>Tir en croix</string>
@@ -2980,7 +2980,7 @@
       <string>扉の向こうが見える</string>
       <string>문 투시</string>
       <string>看穿所有门</string>
-      <string>Видеть сквозь двери</string>
+      <string>Смотри сквозь двери</string>
       <string>Durchsichtige Türen</string>
       <string>Mira a través de las puertas</string>
       <string>Un œil sur les salles secrètes</string>
@@ -5190,7 +5190,7 @@
       <string>マイダスタッチ</string>
       <string>미다스의 손길</string>
       <string>弥达斯之触</string>
-      <string>Касание мидаса</string>
+      <string>Касание Мидаса</string>
       <string>Midas' Berührung</string>
       <string>Toque de Midas</string>
       <string>Malédiction de Midas</string>
@@ -5280,7 +5280,7 @@
       <string>ダメージと涙アップ、タマゲる体験！</string>
       <string>공격력, 공격 속도 증가. 유체이탈 체험!</string>
       <string>伤害+射速上升。离体体验！</string>
-      <string>Урон + Скорострельность ↑. Опыт выхода из тела!</string>
+      <string>Урон + Скорострельность ↑. Внетелесный опыт!</string>
       <string>Schaden + Tränen hoch Eine außerkörperliche Erfahrung!</string>
       <string>+ Daño, + Lágrimas ¡Una experiencia extracorporal!</string>
       <string>Débit et dégâts augmentés. À en perdre la tête !</string>
@@ -5600,7 +5600,7 @@
       <string>無重力涙、涙アップ</string>
       <string>반중력 눈물 + 공격 속도 증가</string>
       <string>反重力泪弹+射速上升</string>
-      <string>Скорострельность ↑ + слёзы антигравитации</string>
+      <string>Скорострельность ↑ + антигравитационные слёзы</string>
       <string>Anti-Schwerkrafttränen + Tränen hoch</string>
       <string>Lágrimas antigravedad, + Lágrimas</string>
       <string>Larmes en apesanteur</string>
@@ -8140,7 +8140,7 @@
       <string>毒がドクドク！</string>
       <string>어마어마한 독</string>
       <string>群体中毒</string>
-      <string>Массовый яд</string>
+      <string>Массовое отравление</string>
       <string>Massenvergiftung</string>
       <string>Toxicidad masiva</string>
       <string>Empoisonnement de masse</string>
@@ -8860,7 +8860,7 @@
       <string>石を再ロール</string>
       <string>장애물을 바꾸는 능력</string>
       <string>重置岩石</string>
-      <string>Рероллит камни</string>
+      <string>Меняет камни</string>
       <string>Steine neu würfeln</string>
       <string>Cambia las rocas</string>
       <string>Rejoue les rochers</string>
@@ -9260,7 +9260,7 @@
       <string>ステータスを再ロール</string>
       <string>능력치를 바꾸는 능력</string>
       <string>重置属性</string>
-      <string>Реролл характеристик</string>
+      <string>Меняет характеристики</string>
       <string>Werte neu würfeln</string>
       <string>Cambia tus estadísticas</string>
       <string>Rejoue tes statistiques</string>
@@ -9520,7 +9520,7 @@
       <string>ｉテレポート</string>
       <string>이것이 바로 완전히 새로운 i텔레포트</string>
       <string>智能传送！</string>
-      <string>Я-Телепортирую!</string>
+      <string>I-Телепорт</string>
       <string>Teleportieren neu gedacht!</string>
       <string>¡Teletransporte!</string>
       <string>Té-té-té-téléportation !</string>
@@ -10070,7 +10070,7 @@
       <string>リンガービーンズ</string>
       <string>링거 콩</string>
       <string>流连豆</string>
-      <string>Тормозной Боб</string>
+      <string>Тормозной боб</string>
       <string>Verweilende Bohne</string>
       <string>Frijol Persistente</string>
       <string>Haricot Péteux</string>
@@ -14520,7 +14520,7 @@
       <string>これが、幽体離脱の体験！？</string>
       <string>정말 정신 쏙 빠지는 경험이야!</string>
       <string>真正的离体体验！</string>
-      <string>Настоящий опыт "выхода-из-тела"!</string>
+      <string>Настоящий внетелесный опыт!</string>
       <string>Das wahre außerkörperliche Erlebnis!</string>
       <string>¡La verdadera experiencia extracorporal!</string>
       <string>Une expérience transcendante !</string>
@@ -19774,7 +19774,7 @@
       <string>カリオン プリンセス</string>
       <string>썩은 공주</string>
       <string>腐蛆公主</string>
-      <string>Принцесса-Падальщик</string>
+      <string>Принцесса падали</string>
       <string>Aasprinzessin</string>
       <string>Princesa carroña</string>
       <string>Princesse Charogne</string>
@@ -20114,7 +20114,7 @@
       <string>スティッキー リーパー</string>
       <string>끈적한 곡예사</string>
       <string>黏性飞跃尸</string>
-      <string>Вонючий Скакун</string>
+      <string>Липкий скакун</string>
       <string>Klebriger Springer</string>
       <string>Brinco pegajoso</string>
       <string>Bondissant Poisseux</string>
@@ -20214,7 +20214,7 @@
       <string>ビス</string>
       <string>비스</string>
       <string>开膛怪</string>
-      <string>Пузо</string>
+      <string>Брюхо</string>
       <string>Vis</string>
       <string>Vis</string>
       <string>Vis</string>
@@ -20294,7 +20294,7 @@
       <string>セルフレス ナイト</string>
       <string>이타적인 나이트</string>
       <string>忘我骑士</string>
-      <string>Доблестный Рыцарь</string>
+      <string>Доблестный рыцарь</string>
       <string>Selbstloser Ritter</string>
       <string>Caballero ecuánime</string>
       <string>Chevalier Double-Face</string>
@@ -20304,7 +20304,7 @@
       <string>ルーズ ナイト</string>
       <string>헐거운 나이트</string>
       <string>漏脑骑士</string>
-      <string>Рыхлый Рыцарь</string>
+      <string>Болтающийся рыцарь</string>
       <string>Lässiger Ritter</string>
       <string>Caballero holgado</string>
       <string>Chevalier Tombant</string>
@@ -20314,7 +20314,7 @@
       <string>ブレインレス ナイト</string>
       <string>무뇌 나이트</string>
       <string>无脑骑士</string>
-      <string>Безмозглый Рыцарь</string>
+      <string>Безмозглый рыцарь</string>
       <string>Hirnloser Ritter</string>
       <string>Caballero descerebrado</string>
       <string>Chevalier Écervelé</string>
@@ -20324,7 +20324,7 @@
       <string>ブラック ナイト</string>
       <string>블랙 나이트</string>
       <string>黑骑士</string>
-      <string>Черный Рыцарь</string>
+      <string>Черный рыцарь</string>
       <string>Schwarzer Ritter</string>
       <string>Caballero oscuro</string>
       <string>Chevalier Noir</string>
@@ -20584,7 +20584,7 @@
       <string>フレイミング ホッパー</string>
       <string>불타는 호퍼</string>
       <string>燃烧跳跳尸</string>
-      <string>Горящий Прыгун</string>
+      <string>Пламенный прыгун</string>
       <string>Flammender Hüpfer</string>
       <string>Bote ígneo</string>
       <string>Sautelant Enflammé</string>
@@ -20684,7 +20684,7 @@
       <string>フレッド</string>
       <string>프레드</string>
       <string>弗莱德</string>
-      <string>Фрэд</string>
+      <string>Фред</string>
       <string>Fred</string>
       <string>Fred</string>
       <string>Fred</string>
@@ -21534,7 +21534,7 @@
       <string>フレイミング ファッティ</string>
       <string>불타는 뚱뚱보</string>
       <string>燃烧肥仔</string>
-      <string>Горящий Толстяк</string>
+      <string>Пламенный Толстяк</string>
       <string>Flammender Fettkloß</string>
       <string>Gordi ígneo</string>
       <string>Gros Tas Enflammé</string>
@@ -22214,7 +22214,7 @@
       <string>フローティング ナイト</string>
       <string>부유하는 나이트</string>
       <string>飘浮骑士</string>
-      <string>Парящий Рыцарь</string>
+      <string>Парящий рыцарь</string>
       <string>Schwebender Ritter</string>
       <string>Caballero flotante</string>
       <string>Chevalier Flottant</string>
@@ -22294,7 +22294,7 @@
       <string>リトル ホーント</string>
       <string>리틀 헌트</string>
       <string>小恶灵</string>
-      <string>Мелкое Привидение</string>
+      <string>Маленький преследователь</string>
       <string>Kleiner Spuk</string>
       <string>Miniespectro</string>
       <string>Revenant</string>
@@ -22564,7 +22564,7 @@
       <string>ボーン ナイト</string>
       <string>본 나이트</string>
       <string>骸骨骑士</string>
-      <string>Костяной Рыцарь</string>
+      <string>Костяной рыцарь</string>
       <string>Knochenritter</string>
       <string>Caballero óseo</string>
       <string>Chevalier d'Os</string>
@@ -22654,7 +22654,7 @@
       <string>ハッシュ フライ</string>
       <string>침묵 파리</string>
       <string>死寂苍蝇</string>
-      <string>Тихая Муха</string>
+      <string>Молчаливая муха</string>
       <string>Stille Fliege</string>
       <string>Mosca del silencio</string>
       <string>Mouche Bleue</string>
@@ -22674,7 +22674,7 @@
       <string>ブルー ボイル</string>
       <string>푸른 거미집</string>
       <string>死寂脓液囊</string>
-      <string>Синйи Нарыв</string>
+      <string>Синий нарыв</string>
       <string>Blaue Beule</string>
       <string>Bolo azul</string>
       <string>Furoncle Bleu</string>
@@ -22804,7 +22804,7 @@
       <string>ロウコウロイド</string>
       <string>피스툴로이드</string>
       <string>小瘘管</string>
-      <string>Фистулик</string>
+      <string>Фистулоид</string>
       <string>Fisteloid</string>
       <string>Fistuloide</string>
       <string>Fistuloïde</string>
@@ -23154,7 +23154,7 @@
       <string>フィッシャー</string>
       <string>피셔</string>
       <string>骷髅鱼</string>
-      <string>Кефаль</string>
+      <string>Треска</string>
       <string>Fischur</string>
       <string>Fisura</string>
       <string>Fissure</string>
@@ -23974,7 +23974,7 @@
       <string>ダンプ</string>
       <string>똥덩어리</string>
       <string>便便鼻涕虫</string>
-      <string>Кал</string>
+      <string>Куча</string>
       <string>Kackschnecke</string>
       <string>Gusatruño</string>
       <string>Ordure</string>
@@ -23984,7 +23984,7 @@
       <string>ダンプ ヘッド</string>
       <string>똥덩머리</string>
       <string>便便鼻涕虫的头</string>
-      <string>Кал</string>
+      <string>Голова Кучи</string>
       <string>Kackschnecke</string>
       <string>Gusatruño</string>
       <string>Tête d'Ordure</string>
