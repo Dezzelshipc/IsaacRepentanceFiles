@@ -6,7 +6,6 @@ varying vec4 Color0;
 varying vec2 TexCoord0;
 varying vec4 Ratio0;
 varying lowp float Amount0;
-varying lowp float PixelationAmount0;
 
 uniform sampler2D Texture0;
 

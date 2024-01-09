@@ -1,6 +1,5 @@
 varying vec2 TexCoord0;
 varying float TimeOut;
-varying float AmountOut;
 varying vec4 OutScreenSize;
 uniform sampler2D Texture0;
 
