@@ -1,0 +1,119 @@
+// Normal bomb
+bomb0	bomb.png	16 29 0	 0  32 32 23 26
+bomb1	bomb.png	16 29 0	 32 32 32 24 27
+bomb2	bomb.png	24 41 32 0  48 48 27 34
+bomb3	bomb.png	24 41 80 0  48 48 28 37
+
+// Glitter bomb
+glitter0	glitter.png	16 29 0	 0  32 32 23 26
+glitter1	glitter.png	16 29 0	 32 32 32 24 27
+glitter2	glitter.png	24 41 32 0  48 48 27 34
+glitter3	glitter.png	24 41 80 0  48 48 28 37
+
+// Glitter bomb (hot)
+glitter_hot0	glitter_hot.png	16 29 0	 0  32 32 23 26
+glitter_hot1	glitter_hot.png	16 29 0	 32 32 32 24 27
+glitter_hot2	glitter_hot.png	24 41 32 0  48 48 25 34
+glitter_hot3	glitter_hot.png	24 41 80 0  48 48 28 37
+
+// Glitter bomb (sad)
+glitter_sad0	glitter_sad.png	16 29 0	 0  32 32 26 29
+glitter_sad1	glitter_sad.png	16 29 0	 32 32 32 27 30
+glitter_sad2	glitter_sad.png	24 41 32 0  48 48 29 36
+glitter_sad3	glitter_sad.png	24 41 80 0  48 48 34 40
+
+// Hot bomb
+hot0	hot.png	16 29 0	 0  32 32 23 26
+hot1	hot.png	16 29 0	 32 32 32 24 27
+hot2	hot.png	24 41 32 0  48 48 25 34
+hot3	hot.png	24 41 80 0  48 48 28 37
+
+// Poison bomb
+poison0	poison.png	16 29 0	 0  32 32 0 0
+poison1	poison.png	16 29 0	 32 32 32 0 0
+poison2	poison.png	24 41 32 0  48 48 0 0
+poison3	poison.png	24 41 80 0  48 48 0 0
+
+// Poop bomb
+poop0	poop.png	16 29 0	 0  32 32 22 28
+poop1	poop.png	16 29 0	 32 32 32 24 28
+poop2	poop.png	24 41 32 0  48 48 24 35
+poop3	poop.png	24 41 80 0  48 48 27 36
+
+// Sad poop bomb
+poop_sad0	poop_sad.png	16 29 0	 0  32 32 22 28
+poop_sad1	poop_sad.png	16 29 0	 32 32 32 24 28
+poop_sad2	poop_sad.png	24 41 32 0  48 48 24 35
+poop_sad3	poop_sad.png	24 41 80 0  48 48 27 36
+
+// Sad bomb
+sad0	sad.png	16 29 0	 0  32 32 26 29
+sad1	sad.png	16 29 0	 32 32 32 27 30
+sad2	sad.png	24 41 32 0  48 48 29 36
+sad3	sad.png	24 41 80 0  48 48 34 40
+
+// Sticky bomb
+sticky0	sticky.png	16 29 0	 0  32 32 23 26
+sticky1	sticky.png	16 29 0	 32 32 32 24 27
+sticky2	sticky.png	24 41 32 0  48 48 27 34
+sticky3	sticky.png	24 41 80 0  48 48 28 37
+
+// Hot sticky bomb
+sticky_hot0	sticky_hot.png	16 29 0	 0  32 32 23 26
+sticky_hot1	sticky_hot.png	16 29 0	 32 32 32 24 27
+sticky_hot2	sticky_hot.png	24 41 32 0  48 48 25 34
+sticky_hot3	sticky_hot.png	24 41 80 0  48 48 28 37
+
+// Sad sticky bomb
+sticky_sad0	sticky_sad.png	16 29 0	 0  32 32 26 29
+sticky_sad1	sticky_sad.png	16 29 0	 32 32 32 27 30
+sticky_sad2	sticky_sad.png	24 41 32 0  48 48 29 36
+sticky_sad3	sticky_sad.png	24 41 80 0  48 48 34 40
+
+// Bomber Boy bomb
+bomber0	bomber.png	16 29 0	 0  32 32 21 28
+bomber1	bomber.png	16 29 0	 32 32 32 21 29
+bomber2	bomber.png	24 41 32 0  48 48 23 35
+bomber3	bomber.png	24 41 80 0  48 48 24 41
+
+// Scatter bomb
+scatter0	scatter.png	16 29 0	 0  32 32 23 26
+scatter1	scatter.png	16 29 0	 32 32 32 24 27
+scatter2	scatter.png	24 41 32 0  48 48 27 34
+scatter3	scatter.png	24 41 80 0  48 48 28 37
+
+// Scatter bomb (poison)
+scatter_poison0	scatter_poison.png	16 29 0	 0  32 32 23 26
+scatter_poison1	scatter_poison.png	16 29 0	 32 32 32 24 27
+scatter_poison2	scatter_poison.png	24 41 32 0  48 48 27 34
+scatter_poison3	scatter_poison.png	24 41 80 0  48 48 28 37
+
+// Blood bomb
+blood0	blood.png	16 29 0	 0  32 32 23 26
+blood1	blood.png	16 29 0	 32 32 32 24 27
+blood2	blood.png	24 41 32 0  48 48 27 33
+blood3	blood.png	24 41 80 0  48 48 28 36
+
+// Scatter bomb (blood)
+scatter_blood0	scatter_blood.png	16 29 0	 0  32 32 23 26
+scatter_blood1	scatter_blood.png	16 29 0	 32 32 32 24 27
+scatter_blood2	scatter_blood.png	24 41 32 0  48 48 27 34
+scatter_blood3	scatter_blood.png	24 41 80 0  48 48 28 37
+
+// Ghost bomb
+ghost0	ghost.png	16 29 0	 0  32 32 26 29
+ghost1	ghost.png	16 29 0	 32 32 32 27 30
+ghost2	ghost.png	24 41 32 0  48 48 29 36
+ghost3	ghost.png	24 41 80 0  48 48 34 40
+
+// Glitter bomb (ghost)
+glitter_ghost0	glitter_ghost.png	16 29 0	 0  32 32 26 29
+glitter_ghost1	glitter_ghost.png	16 29 0	 32 32 32 27 30
+glitter_ghost2	glitter_ghost.png	24 41 32 0  48 48 29 36
+glitter_ghost3	glitter_ghost.png	24 41 80 0  48 48 34 40
+
+// Poop bomb (ghost)
+poop_ghost0	poop_ghost.png	16 29 0	 0  32 32 22 28
+poop_ghost1	poop_ghost.png	16 29 0	 32 32 32 24 28
+poop_ghost2	poop_ghost.png	24 41 32 0  48 48 24 35
+poop_ghost3	poop_ghost.png	24 41 80 0  48 48 27 36
