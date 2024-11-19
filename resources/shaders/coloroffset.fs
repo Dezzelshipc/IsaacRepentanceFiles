@@ -51,6 +51,8 @@ void main(void)
 	// vec4 Color = Color0 * texture2D(Texture0, TexCoord0);
 	vec4 Color = Color0 * texture(Texture0, PixelationAmountOut > 0.0 ? TexCoord0 - mod(TexCoord0, pa) + pa * 0.5 : TexCoord0);
 	
+	if( Color.a == 0.0 )	discard;
+	
 	vec3 Colorized = mix(Color.rgb, dot(Color.rgb, _lum) * ColorizeOut.rgb, ColorizeOut.a);
 	fragColor = vec4(Colorized + ColorOffsetOut * Color.a, Color.a);
 	

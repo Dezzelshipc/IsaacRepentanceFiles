@@ -26,6 +26,9 @@ void main(void)
 	vec2 pa = vec2(1.0+PixelationAmountOut, 1.0+PixelationAmountOut) / TextureSizeOut;
 	
 	vec4 SourceColor = texture2D(Texture0, PixelationAmountOut > 0.0 ? TexCoord0 - mod(TexCoord0, pa) + pa * 0.5 : TexCoord0);
+
+	if( SourceColor.a == 0.0 )		discard;
+
 	if(SourceColor.a < 0.5)
 	{
 		// alpha < 0.5, leave color unchanged and remap opacity to [0;1]

@@ -1,24 +1,23 @@
-<?xml version="1.0" ?>
 <AnimatedActor>
-	<Info CreatedBy="robot" CreatedOn="2014-02-03 23:51:21.217227" Fps="30" Version="103"/>
+	<Info Fps="30" CreatedBy="robot" CreatedOn="01-January-1979 12:00:00 AM" Version="0"/>
 	<Content>
 		<Spritesheets>
-			<Spritesheet Id="0" Path="Effects/Effect_037_LemonMishap.png"/>
+			<Spritesheet Path="Effects/Effect_037_LemonMishap.png" Id="0"/>
 		</Spritesheets>
 		<Layers>
-			<Layer Id="0" Name="body" SpritesheetId="0"/>
+			<Layer Name="body" Id="0" SpritesheetId="0"/>
 		</Layers>
 		<Nulls/>
 		<Events/>
 	</Content>
 	<Animations DefaultAnimation="Idle">
-		<Animation FrameNum="15" Loop="false" Name="Idle">
+		<Animation Name="Idle" FrameNum="15" Loop="false">
 			<RootAnimation>
-				<Frame AlphaTint="255" BlueOffset="0" BlueTint="255" Delay="15" GreenOffset="0" GreenTint="255" RedOffset="0" RedTint="255" Rotation="0" Visible="true" XPosition="0" XScale="100" YPosition="0" YScale="100"/>
+				<Frame XPosition="0" YPosition="0" XScale="100" YScale="100" Delay="15" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false"/>
 			</RootAnimation>
 			<LayerAnimations>
 				<LayerAnimation LayerId="0" Visible="true">
-					<Frame AlphaTint="255" BlueOffset="0" BlueTint="255" Delay="15" GreenOffset="0" GreenTint="255" Height="96" RedOffset="0" RedTint="255" Rotation="0" Visible="True" Width="96" XCrop="0" XPivot="48" XPosition="0" XScale="100" YCrop="0" YPivot="48" YPosition="0" YScale="100"/>
+					<Frame XPosition="0" YPosition="0" XPivot="48" YPivot="48" XCrop="0" YCrop="0" Width="96" Height="96" XScale="130" YScale="130" Delay="15" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false"/>
 				</LayerAnimation>
 			</LayerAnimations>
 			<NullAnimations/>
@@ -26,3 +25,4 @@
 		</Animation>
 	</Animations>
 </AnimatedActor>
+
