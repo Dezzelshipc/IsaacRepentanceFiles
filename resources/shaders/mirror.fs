@@ -6,7 +6,6 @@ varying vec2 TexCoord0;
 varying vec2 TextureSize0;
 varying vec4 Ratio0;
 varying lowp float Time0;
-varying lowp float Amount0;
 
 uniform sampler2D Texture0;
 
@@ -18,7 +17,7 @@ vec2 mirrorclamp(vec2 uv, vec2 m)
 void main(void)
 {
 	float time = Time0 * 6.28318530718 * 0.5;
-	float amount = Amount0+0.1;
+	float amount = 0.0;
 	
 	vec2 center = 0.5 * TextureSize0.xy;
 	vec2 texcoord = TexCoord0;
