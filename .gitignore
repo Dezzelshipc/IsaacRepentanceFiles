@@ -1,3 +1,4 @@
-*.a
-*.b
-*_log.txt
+__pycache__/
+.idea/
+
+*_out.*

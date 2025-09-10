@@ -1,0 +1,2 @@
+rep_url = "https://raw.githubusercontent.com/Dezzelshipc/IsaacRepentanceFiles/f7bb19b063361b3a55374f582fae522f235f70f7"
+rep_plus_url = "https://raw.githubusercontent.com/Dezzelshipc/IsaacRepentanceFiles/refs/heads/main"
