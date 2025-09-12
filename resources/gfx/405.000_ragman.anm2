@@ -851,7 +851,7 @@
 				</NullAnimation>
 			</NullAnimations>
 			<Triggers>
-				<Trigger EventId="3" AtFrame="17"/>
+				<Trigger EventId="3" AtFrame="18"/>
 			</Triggers>
 		</Animation>
 		<Animation Name="HeadThrowRight" FrameNum="29" Loop="false">
@@ -906,7 +906,7 @@
 				</NullAnimation>
 			</NullAnimations>
 			<Triggers>
-				<Trigger EventId="3" AtFrame="17"/>
+				<Trigger EventId="3" AtFrame="18"/>
 			</Triggers>
 		</Animation>
 	</Animations>

@@ -2,7 +2,7 @@
 	<Info CreatedBy="robot" CreatedOn="2014-02-03 12:51:03.165889" Version="103" Fps="30"/>
 	<Content>
 		<Spritesheets>
-			<Spritesheet Path="BulletAtlas.png" Id="0"/>
+			<Spritesheet Path="tears.png" Id="0"/>
 		</Spritesheets>
 		<Layers>
 			<Layer Name="body" Id="0" SpritesheetId="0"/>

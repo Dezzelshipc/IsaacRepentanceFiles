@@ -1,20 +1,18 @@
 <minibosses>
-	<miniboss id="0" name="#SLOTH_NAME" />
-	<miniboss id="1" name="#LUST_NAME" />
-	<miniboss id="2" name="#WRATH_NAME" />
-	<miniboss id="3" name="#GLUTTONY_NAME" />
-	<miniboss id="4" name="#GREED_NAME" />
-	<miniboss id="5" name="#ENVY_NAME" />
-	<miniboss id="6" name="#PRIDE_NAME" />
-	
-	<miniboss id="7" name="#SUPER_SLOTH_NAME" />
-	<miniboss id="8" name="#SUPER_LUST_NAME" />
-	<miniboss id="9" name="#SUPER_WRATH_NAME" />
-	<miniboss id="10" name="#SUPER_GLUTTONY_NAME" />
-	<miniboss id="11" name="#SUPER_GREED_NAME" />
-	<miniboss id="12" name="#SUPER_ENVY_NAME" />
-	<miniboss id="13" name="#SUPER_PRIDE_NAME" />
-	
-	<miniboss id="14" name="#ULTRA_PRIDE_NAME" />
-	<miniboss id="15" name="#KRAMPUS_NAME" />
+	<miniboss id="2000" name="Wrath" />
+	<miniboss id="2010" name="Gluttony" />
+	<miniboss id="2020" name="Lust" />
+	<miniboss id="2030" name="Sloth" />
+	<miniboss id="2040" name="Greed" />
+	<miniboss id="2050" name="Envy" />
+	<miniboss id="2060" name="Pride" />
+	<miniboss id="2100" name="Super Wrath" />
+	<miniboss id="2110" name="Super Gluttony" />
+	<miniboss id="2120" name="Super Lust" />
+	<miniboss id="2130" name="Super Sloth" />
+	<miniboss id="2140" name="Super Greed" />
+	<miniboss id="2150" name="Super Envy" />
+	<miniboss id="2160" name="Super Pride" />
+	<miniboss id="2260" name="Ultra Pride" />
+	<miniboss id="2300" name="Krampus" />
 </minibosses>

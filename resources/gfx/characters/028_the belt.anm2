@@ -11,7 +11,7 @@
 		<Events />
 	</Content>
 	<Animations DefaultAnimation="WalkDown">
-		<Animation FrameNum="20" Loop="true" Name="WalkDown">
+		<Animation FrameNum="20" Loop="false" Name="WalkDown">
 			<RootAnimation>
 				<Frame AlphaTint="255" BlueOffset="0" BlueTint="255" Delay="20" GreenOffset="0" GreenTint="255" RedOffset="0" RedTint="255" Rotation="0" Visible="true" XPosition="0" XScale="100" YPosition="0" YScale="100" />
 			</RootAnimation>
@@ -32,7 +32,7 @@
 			<NullAnimations />
 			<Triggers />
 		</Animation>
-		<Animation FrameNum="20" Loop="true" Name="WalkRight">
+		<Animation FrameNum="20" Loop="false" Name="WalkRight">
 			<RootAnimation>
 				<Frame AlphaTint="255" BlueOffset="0" BlueTint="255" Delay="20" GreenOffset="0" GreenTint="255" RedOffset="0" RedTint="255" Rotation="0" Visible="true" XPosition="0" XScale="100" YPosition="0" YScale="100" />
 			</RootAnimation>
@@ -53,7 +53,7 @@
 			<NullAnimations />
 			<Triggers />
 		</Animation>
-		<Animation FrameNum="20" Loop="true" Name="WalkUp">
+		<Animation FrameNum="20" Loop="false" Name="WalkUp">
 			<RootAnimation>
 				<Frame AlphaTint="255" BlueOffset="0" BlueTint="255" Delay="20" GreenOffset="0" GreenTint="255" RedOffset="0" RedTint="255" Rotation="0" Visible="true" XPosition="0" XScale="100" YPosition="0" YScale="100" />
 			</RootAnimation>
@@ -74,7 +74,7 @@
 			<NullAnimations />
 			<Triggers />
 		</Animation>
-		<Animation FrameNum="20" Loop="true" Name="WalkLeft">
+		<Animation FrameNum="20" Loop="false" Name="WalkLeft">
 			<RootAnimation>
 				<Frame AlphaTint="255" BlueOffset="0" BlueTint="255" Delay="20" GreenOffset="0" GreenTint="255" RedOffset="0" RedTint="255" Rotation="0" Visible="true" XPosition="0" XScale="100" YPosition="0" YScale="100" />
 			</RootAnimation>

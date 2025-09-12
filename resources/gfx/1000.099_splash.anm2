@@ -1,6 +1,5 @@
-<?xml version="1.0"?>
 <AnimatedActor>
-	<Info CreatedBy="Unknown" CreatedOn="13.08.2021 12:17:11" Version="6" Fps="30"/>
+	<Info CreatedBy="Unknown" CreatedOn="01.10.2015 01:34:27" Version="5" Fps="30"/>
 	<Content>
 		<Spritesheets>
 			<Spritesheet Path="Effects\Effect_Splash.png" Id="0"/>
@@ -45,7 +44,7 @@
 			</RootAnimation>
 			<LayerAnimations>
 				<LayerAnimation LayerId="0" Visible="true">
-					<Frame XPosition="0" YPosition="0" XPivot="1" YPivot="1" XCrop="96" YCrop="32" Width="2" Height="2" XScale="100" YScale="100" Delay="1" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false"/>
+					<Frame XPosition="0" YPosition="0" XPivot="1" YPivot="1" XCrop="96" YCrop="32" Width="32" Height="32" XScale="100" YScale="100" Delay="1" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false"/>
 				</LayerAnimation>
 				<LayerAnimation LayerId="1" Visible="true"/>
 			</LayerAnimations>

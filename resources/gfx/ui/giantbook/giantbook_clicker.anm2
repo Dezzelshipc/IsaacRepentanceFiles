@@ -8,9 +8,7 @@
 			<Layer Name="Effect" Id="0" SpritesheetId="0"/>
 		</Layers>
 		<Nulls/>
-		<Events>
-			<Event Id="0" Name="Sound" />
-		</Events>
+		<Events/>
 	</Content>
 	<Animations DefaultAnimation="Effect">
 		<Animation Name="Effect" FrameNum="5" Loop="false">
@@ -28,9 +26,7 @@
 				</LayerAnimation>
 			</LayerAnimations>
 			<NullAnimations/>
-			<Triggers>
-				<Trigger EventId="0" AtFrame="1" />
-			</Triggers>
+			<Triggers/>
 		</Animation>
 	</Animations>
 </AnimatedActor>

@@ -11,11 +11,7 @@
 		<Nulls>
 			<Null Name="OverlayEffect" Id="0"/>
 		</Nulls>
-		<Events>
-			<Event Name="Jump" Id="0"/>
-			<Event Name="Land" Id="1"/>
-			<Event Name="Shoot" Id="2"/>
-		</Events>
+		<Events/>
 	</Content>
 	<Animations DefaultAnimation="Hop">
 		<Animation Name="Hop" FrameNum="26" Loop="false">
@@ -68,10 +64,7 @@
 					<Frame XPosition="0" YPosition="-26" XScale="100" YScale="100" Delay="1" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false"/>
 				</NullAnimation>
 			</NullAnimations>
-			<Triggers>
-				<Trigger EventId="0" AtFrame="5"/>
-				<Trigger EventId="1" AtFrame="18"/>
-			</Triggers>
+			<Triggers/>
 		</Animation>
 		<Animation Name="Idle" FrameNum="14" Loop="true">
 			<RootAnimation>
@@ -121,9 +114,7 @@
 					<Frame XPosition="0" YPosition="-26" XScale="100" YScale="100" Delay="1" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false"/>
 				</NullAnimation>
 			</NullAnimations>
-			<Triggers>
-				<Trigger EventId="2" AtFrame="4"/>
-			</Triggers>
+			<Triggers/>
 		</Animation>
 		<Animation Name="BigJumpUp" FrameNum="12" Loop="false">
 			<RootAnimation>

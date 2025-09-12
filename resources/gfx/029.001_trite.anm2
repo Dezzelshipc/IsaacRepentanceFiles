@@ -1,5 +1,5 @@
 <AnimatedActor>
-	<Info CreatedBy="robot" CreatedOn="03-May-19 4:19:25 PM" Version="104" Fps="30"/>
+	<Info CreatedBy="robot" CreatedOn="5/16/2014 2:45:34 PM" Version="103" Fps="30"/>
 	<Content>
 		<Spritesheets>
 			<Spritesheet Path="Monsters/Classic/Monster_082_Trite.png" Id="0"/>
@@ -8,12 +8,9 @@
 			<Layer Name="body" Id="0" SpritesheetId="0"/>
 		</Layers>
 		<Nulls>
-			<Null Name="OverlayEffect" Id="0" ShowRect="false"/>
+			<Null Name="OverlayEffect" Id="0"/>
 		</Nulls>
-		<Events>
-			<Event Name="Jump" Id="0"/>
-			<Event Name="Land" Id="1"/>
-		</Events>
+		<Events/>
 	</Content>
 	<Animations DefaultAnimation="Hop">
 		<Animation Name="Hop" FrameNum="26" Loop="false">
@@ -53,10 +50,7 @@
 					<Frame XPosition="-1" YPosition="-23" XScale="100" YScale="100" Delay="1" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false"/>
 				</NullAnimation>
 			</NullAnimations>
-			<Triggers>
-				<Trigger EventId="0" AtFrame="4"/>
-				<Trigger EventId="1" AtFrame="18"/>
-			</Triggers>
+			<Triggers/>
 		</Animation>
 		<Animation Name="Idle" FrameNum="2" Loop="false">
 			<RootAnimation>

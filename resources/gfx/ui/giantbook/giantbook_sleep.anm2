@@ -11,7 +11,6 @@
 		<Nulls/>
 		<Events>
 			<Event Name="SleepFillHP" Id="0"/>
-			<Event Name="FadeOut" Id="1"/>
 		</Events>
 	</Content>
 	<Animations DefaultAnimation="Idle">
@@ -48,7 +47,6 @@
 			<NullAnimations/>
 			<Triggers>
 				<Trigger EventId="0" AtFrame="73"/>
-				<Trigger EventId="1" AtFrame="157"/>
 			</Triggers>
 		</Animation>
 	</Animations>

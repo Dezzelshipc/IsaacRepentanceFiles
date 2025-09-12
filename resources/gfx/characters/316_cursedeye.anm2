@@ -63,7 +63,7 @@
 			<NullAnimations />
 			<Triggers />
 		</Animation>
-		<Animation FrameNum="2" Loop="false" Name="HeadDownCharge">
+		<Animation FrameNum="2" Loop="false" Name="HeadDownCharging">
 			<RootAnimation>
 				<Frame AlphaTint="255" BlueOffset="0" BlueTint="255" Delay="2" GreenOffset="0" GreenTint="255" RedOffset="0" RedTint="255" Rotation="0" Visible="true" XPosition="0" XScale="100" YPosition="0" YScale="100" />
 			</RootAnimation>
@@ -75,7 +75,7 @@
 			<NullAnimations />
 			<Triggers />
 		</Animation>
-		<Animation FrameNum="2" Loop="false" Name="HeadRightCharge">
+		<Animation FrameNum="2" Loop="false" Name="HeadRightCharging">
 			<RootAnimation>
 				<Frame AlphaTint="255" BlueOffset="0" BlueTint="255" Delay="2" GreenOffset="0" GreenTint="255" RedOffset="0" RedTint="255" Rotation="0" Visible="true" XPosition="0" XScale="100" YPosition="0" YScale="100" />
 			</RootAnimation>
@@ -87,7 +87,7 @@
 			<NullAnimations />
 			<Triggers />
 		</Animation>
-		<Animation FrameNum="2" Loop="false" Name="HeadUpCharge">
+		<Animation FrameNum="2" Loop="false" Name="HeadUpCharging">
 			<RootAnimation>
 				<Frame AlphaTint="255" BlueOffset="0" BlueTint="255" Delay="2" GreenOffset="0" GreenTint="255" RedOffset="0" RedTint="255" Rotation="0" Visible="true" XPosition="0" XScale="100" YPosition="0" YScale="100" />
 			</RootAnimation>
@@ -99,7 +99,7 @@
 			<NullAnimations />
 			<Triggers />
 		</Animation>
-		<Animation FrameNum="2" Loop="false" Name="HeadLeftCharge">
+		<Animation FrameNum="2" Loop="false" Name="HeadLeftCharging">
 			<RootAnimation>
 				<Frame AlphaTint="255" BlueOffset="0" BlueTint="255" Delay="2" GreenOffset="0" GreenTint="255" RedOffset="0" RedTint="255" Rotation="0" Visible="true" XPosition="0" XScale="100" YPosition="0" YScale="100" />
 			</RootAnimation>
@@ -111,7 +111,7 @@
 			<NullAnimations />
 			<Triggers />
 		</Animation>
-		<Animation FrameNum="6" Loop="true" Name="HeadDownChargeFull">
+		<Animation FrameNum="6" Loop="true" Name="HeadDownCharged">
 			<RootAnimation>
 				<Frame AlphaTint="255" BlueOffset="0" BlueTint="255" Delay="6" GreenOffset="0" GreenTint="255" RedOffset="0" RedTint="255" Rotation="0" Visible="true" XPosition="0" XScale="100" YPosition="0" YScale="100" />
 			</RootAnimation>
@@ -124,7 +124,7 @@
 			<NullAnimations />
 			<Triggers />
 		</Animation>
-		<Animation FrameNum="6" Loop="true" Name="HeadRightChargeFull">
+		<Animation FrameNum="6" Loop="true" Name="HeadRightCharged">
 			<RootAnimation>
 				<Frame AlphaTint="255" BlueOffset="0" BlueTint="255" Delay="6" GreenOffset="0" GreenTint="255" RedOffset="0" RedTint="255" Rotation="0" Visible="true" XPosition="0" XScale="100" YPosition="0" YScale="100" />
 			</RootAnimation>
@@ -137,7 +137,7 @@
 			<NullAnimations />
 			<Triggers />
 		</Animation>
-		<Animation FrameNum="6" Loop="true" Name="HeadUpChargeFull">
+		<Animation FrameNum="6" Loop="true" Name="HeadUpCharged">
 			<RootAnimation>
 				<Frame AlphaTint="255" BlueOffset="0" BlueTint="255" Delay="6" GreenOffset="0" GreenTint="255" RedOffset="0" RedTint="255" Rotation="0" Visible="true" XPosition="0" XScale="100" YPosition="0" YScale="100" />
 			</RootAnimation>
@@ -150,7 +150,7 @@
 			<NullAnimations />
 			<Triggers />
 		</Animation>
-		<Animation FrameNum="6" Loop="true" Name="HeadLeftChargeFull">
+		<Animation FrameNum="6" Loop="true" Name="HeadLeftCharged">
 			<RootAnimation>
 				<Frame AlphaTint="255" BlueOffset="0" BlueTint="255" Delay="6" GreenOffset="0" GreenTint="255" RedOffset="0" RedTint="255" Rotation="0" Visible="true" XPosition="0" XScale="100" YPosition="0" YScale="100" />
 			</RootAnimation>

@@ -1,5 +1,5 @@
 <AnimatedActor>
-	<Info CreatedBy="robot" CreatedOn="03-May-19 6:00:33 PM" Version="104" Fps="30"/>
+	<Info CreatedBy="robot" CreatedOn="5/16/2014 11:43:20 AM" Version="103" Fps="30"/>
 	<Content>
 		<Spritesheets>
 			<Spritesheet Path="Monsters/Classic/Monster_152_Keeper.png" Id="0"/>
@@ -8,13 +8,9 @@
 			<Layer Name="body" Id="0" SpritesheetId="0"/>
 		</Layers>
 		<Nulls>
-			<Null Name="OverlayEffect" Id="0" ShowRect="false"/>
+			<Null Name="OverlayEffect" Id="0"/>
 		</Nulls>
-		<Events>
-			<Event Name="Shoot" Id="0"/>
-			<Event Name="Jump" Id="1"/>
-			<Event Name="Land" Id="2"/>
-		</Events>
+		<Events/>
 	</Content>
 	<Animations DefaultAnimation="Down">
 		<Animation Name="Down" FrameNum="2" Loop="false">
@@ -93,10 +89,7 @@
 					<Frame XPosition="0" YPosition="-26" XScale="100" YScale="100" Delay="1" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false"/>
 				</NullAnimation>
 			</NullAnimations>
-			<Triggers>
-				<Trigger EventId="1" AtFrame="5"/>
-				<Trigger EventId="2" AtFrame="19"/>
-			</Triggers>
+			<Triggers/>
 		</Animation>
 		<Animation Name="JumpUp" FrameNum="26" Loop="false">
 			<RootAnimation>
@@ -126,10 +119,7 @@
 					<Frame XPosition="0" YPosition="-26" XScale="100" YScale="100" Delay="1" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false"/>
 				</NullAnimation>
 			</NullAnimations>
-			<Triggers>
-				<Trigger EventId="1" AtFrame="5"/>
-				<Trigger EventId="2" AtFrame="19"/>
-			</Triggers>
+			<Triggers/>
 		</Animation>
 		<Animation Name="JumpHori" FrameNum="26" Loop="false">
 			<RootAnimation>
@@ -159,10 +149,7 @@
 					<Frame XPosition="0" YPosition="-26" XScale="100" YScale="100" Delay="1" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false"/>
 				</NullAnimation>
 			</NullAnimations>
-			<Triggers>
-				<Trigger EventId="1" AtFrame="5"/>
-				<Trigger EventId="2" AtFrame="19"/>
-			</Triggers>
+			<Triggers/>
 		</Animation>
 		<Animation Name="Appear" FrameNum="17" Loop="false">
 			<RootAnimation>
@@ -203,9 +190,7 @@
 					<Frame XPosition="0" YPosition="-26" XScale="100" YScale="100" Delay="1" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false"/>
 				</NullAnimation>
 			</NullAnimations>
-			<Triggers>
-				<Trigger EventId="0" AtFrame="5"/>
-			</Triggers>
+			<Triggers/>
 		</Animation>
 		<Animation Name="ShootUp" FrameNum="20" Loop="false">
 			<RootAnimation>
@@ -228,9 +213,7 @@
 					<Frame XPosition="0" YPosition="-26" XScale="100" YScale="100" Delay="1" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false"/>
 				</NullAnimation>
 			</NullAnimations>
-			<Triggers>
-				<Trigger EventId="0" AtFrame="5"/>
-			</Triggers>
+			<Triggers/>
 		</Animation>
 		<Animation Name="ShootHori" FrameNum="20" Loop="false">
 			<RootAnimation>
@@ -253,9 +236,7 @@
 					<Frame XPosition="0" YPosition="-26" XScale="100" YScale="100" Delay="1" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false"/>
 				</NullAnimation>
 			</NullAnimations>
-			<Triggers>
-				<Trigger EventId="0" AtFrame="5"/>
-			</Triggers>
+			<Triggers/>
 		</Animation>
 	</Animations>
 </AnimatedActor>

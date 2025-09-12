@@ -2,7 +2,7 @@
 	<Info CreatedBy="robot" CreatedOn="7/13/2015 7:26:43 PM" Version="105" Fps="30"/>
 	<Content>
 		<Spritesheets>
-			<Spritesheet Path="Effects\Effect_005_Fire.png" Id="0"/>
+			<Spritesheet Path="Effects\Effect_005.1_MegaMawFire.png" Id="0"/>
 		</Spritesheets>
 		<Layers>
 			<Layer Name="layer1" Id="0" SpritesheetId="0"/>

@@ -5,7 +5,7 @@
 			<Spritesheet Id="0" Path="costumes\costume_237_deathstouch.png" />
 		</Spritesheets>
 		<Layers>
-			<Layer Id="0" Name="head" SpritesheetId="0" />
+			<Layer Id="0" Name="head1" SpritesheetId="0" />
 		</Layers>
 		<Nulls />
 		<Events />

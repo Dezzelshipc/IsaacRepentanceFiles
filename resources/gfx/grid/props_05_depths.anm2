@@ -7,13 +7,7 @@
 		<Layers>
 			<Layer Name="Main" Id="0" SpritesheetId="0"/>
 		</Layers>
-		<Nulls>
-			<Null Id="0" Name="*0" />
-			<Null Id="1" Name="*1" />
-			<Null Id="2" Name="*2" />
-			<Null Id="3" Name="*3" />
-			<Null Id="4" Name="*4" />
-		</Nulls>
+		<Nulls/>
 		<Events/>
 	</Content>
 	<Animations DefaultAnimation="Prop01">
@@ -436,18 +430,7 @@
 					<Frame XPosition="0" YPosition="0" XPivot="13" YPivot="13" XCrop="52" YCrop="104" Width="26" Height="26" XScale="100" YScale="100" Delay="5" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false"/>
 				</LayerAnimation>
 			</LayerAnimations>
-			<NullAnimations>
-				<NullAnimation NullId="0" Visible="True">
-					<Frame XPosition="-8"   YPosition="-8.5" Delay="5" Visible="True" XScale="5" YScale="5" RedTint="255" GreenTint="200" BlueTint="100" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="False" />
-					<Frame XPosition="-8.5" YPosition="-8.5" Delay="5" Visible="True" XScale="5" YScale="6" RedTint="255" GreenTint="210" BlueTint="100"  AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="False" />
-					<Frame XPosition="-8.5" YPosition="-9"   Delay="5" Visible="True" XScale="6" YScale="6" RedTint="255" GreenTint="220" BlueTint="100" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="False" />
-				</NullAnimation>
-				<NullAnimation NullId="1" Visible="True">
-					<Frame XPosition="3.5" YPosition="-7"   Delay="5" Visible="True" XScale="5" YScale="5" RedTint="255" GreenTint="200" BlueTint="100" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="False" />
-					<Frame XPosition="3"   YPosition="-6.5" Delay="5" Visible="True" XScale="4" YScale="5" RedTint="255" GreenTint="180" BlueTint="90"  AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="False" />
-					<Frame XPosition="3.5" YPosition="-6.5" Delay="5" Visible="True" XScale="3" YScale="3" RedTint="255" GreenTint="130" BlueTint="70"  AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="False" />
-				</NullAnimation>
-			</NullAnimations>
+			<NullAnimations/>
 			<Triggers/>
 		</Animation>
 		<Animation Name="Prop36" FrameNum="15" Loop="true">
@@ -461,13 +444,7 @@
 					<Frame XPosition="0" YPosition="0" XPivot="13" YPivot="13" XCrop="130" YCrop="104" Width="26" Height="26" XScale="100" YScale="100" Delay="5" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false"/>
 				</LayerAnimation>
 			</LayerAnimations>
-			<NullAnimations>
-				<NullAnimation NullId="0" Visible="True">
-					<Frame XPosition="1"   YPosition="-5"   Delay="5" Visible="True" XScale="5" YScale="5" RedTint="255" GreenTint="200" BlueTint="100" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="False" />
-					<Frame XPosition="0.5" YPosition="-4.5" Delay="5" Visible="True" XScale="4" YScale="5" RedTint="255" GreenTint="130" BlueTint="70"  AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="False" />
-					<Frame XPosition="0.5" YPosition="-5"   Delay="5" Visible="True" XScale="5" YScale="6" RedTint="255" GreenTint="220" BlueTint="100" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="False" />
-				</NullAnimation>
-			</NullAnimations>
+			<NullAnimations/>
 			<Triggers/>
 		</Animation>
 		<Animation Name="Prop37" FrameNum="15" Loop="true">
@@ -481,23 +458,7 @@
 					<Frame XPosition="0" YPosition="0" XPivot="13" YPivot="13" XCrop="208" YCrop="104" Width="26" Height="26" XScale="100" YScale="100" Delay="5" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false"/>
 				</LayerAnimation>
 			</LayerAnimations>
-			<NullAnimations>
-				<NullAnimation NullId="0" Visible="True">
-					<Frame XPosition="-8.5" YPosition="-5.0" Delay="5" Visible="True" XScale="5" YScale="5" RedTint="255" GreenTint="200" BlueTint="100" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="False" />
-					<Frame XPosition="-8.5" YPosition="-4.5" Delay="5" Visible="True" XScale="5" YScale="5" RedTint="255" GreenTint="130" BlueTint="70"  AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="False" />
-					<Frame XPosition="-9.0" YPosition="-4.5" Delay="5" Visible="True" XScale="5" YScale="5" RedTint="255" GreenTint="200" BlueTint="90"  AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="False" />
-				</NullAnimation>
-				<NullAnimation NullId="1" Visible="True">
-					<Frame XPosition="8.0" YPosition="-9.0" Delay="5" Visible="True" XScale="5" YScale="5" RedTint="255" GreenTint="210" BlueTint="100" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="False" />
-					<Frame XPosition="8.0" YPosition="-8.5" Delay="5" Visible="True" XScale="5" YScale="5" RedTint="255" GreenTint="190" BlueTint="100" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="False" />
-					<Frame XPosition="7.5" YPosition="-8.5" Delay="5" Visible="True" XScale="5" YScale="5" RedTint="255" GreenTint="130" BlueTint="70"  AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="False" />
-				</NullAnimation>
-				<NullAnimation NullId="2" Visible="True">
-					<Frame XPosition="6.5" YPosition="-0.5" Delay="5" Visible="True" XScale="5" YScale="5" RedTint="255" GreenTint="130" BlueTint="70"  AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="False" />
-					<Frame XPosition="6.5" YPosition="-1.0" Delay="5" Visible="True" XScale="5" YScale="5" RedTint="255" GreenTint="200" BlueTint="100" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="False" />
-					<Frame XPosition="6.5" YPosition="-1.5" Delay="5" Visible="True" XScale="5" YScale="5" RedTint="255" GreenTint="220" BlueTint="100" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="False" />
-				</NullAnimation>
-			</NullAnimations>
+			<NullAnimations/>
 			<Triggers/>
 		</Animation>
 		<Animation Name="Prop38" FrameNum="15" Loop="true">
@@ -511,13 +472,7 @@
 					<Frame XPosition="0" YPosition="0" XPivot="13" YPivot="13" XCrop="52" YCrop="130" Width="26" Height="26" XScale="100" YScale="100" Delay="5" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false"/>
 				</LayerAnimation>
 			</LayerAnimations>
-			<NullAnimations>
-				<NullAnimation NullId="0" Visible="True">
-					<Frame XPosition="7.5" YPosition="2.5" Delay="5" Visible="True" XScale="3" YScale="3" RedTint="255" GreenTint="190" BlueTint="90"  AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="False" />
-					<Frame XPosition="8.0" YPosition="2.0" Delay="5" Visible="True" XScale="5" YScale="5" RedTint="255" GreenTint="220" BlueTint="100" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="False" />
-					<Frame XPosition="7.5" YPosition="2.0" Delay="5" Visible="True" XScale="3" YScale="4" RedTint="255" GreenTint="200" BlueTint="100" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="False" />
-				</NullAnimation>
-			</NullAnimations>
+			<NullAnimations/>
 			<Triggers/>
 		</Animation>
 		<Animation Name="Prop39" FrameNum="16" Loop="true">
@@ -532,38 +487,7 @@
 					<Frame XPosition="0" YPosition="0" XPivot="13" YPivot="13" XCrop="156" YCrop="130" Width="26" Height="26" XScale="100" YScale="100" Delay="4" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false"/>
 				</LayerAnimation>
 			</LayerAnimations>
-			<NullAnimations>
-				<NullAnimation NullId="0" Visible="True">
-					<Frame XPosition="-8.0" YPosition="-7.0" Delay="4" Visible="True" XScale="4" YScale="4" RedTint="255" GreenTint="210" BlueTint="100" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="False" />
-					<Frame XPosition="-7.5" YPosition="-7.0" Delay="4" Visible="True" XScale="3" YScale="4" RedTint="255" GreenTint="190" BlueTint="90"  AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="False" />
-					<Frame XPosition="-7.5" YPosition="-6.5" Delay="4" Visible="True" XScale="2" YScale="2" RedTint="255" GreenTint="130" BlueTint="70"  AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="False" />
-					<Frame XPosition="-8.0" YPosition="-6.5" Delay="4" Visible="True" XScale="4" YScale="3" RedTint="255" GreenTint="190" BlueTint="90"  AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="False" />
-				</NullAnimation>
-				<NullAnimation NullId="1" Visible="True">
-					<Frame XPosition="0.5" YPosition="-9.5" Delay="4" Visible="True" XScale="2" YScale="2" RedTint="255" GreenTint="130" BlueTint="70"  AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="False" />
-					<Frame XPosition="0.5" YPosition="-10"  Delay="4" Visible="True" XScale="2" YScale="3" RedTint="255" GreenTint="190" BlueTint="90"  AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="False" />
-					<Frame XPosition="1.0" YPosition="-9.5" Delay="4" Visible="True" XScale="3" YScale="3" RedTint="255" GreenTint="200" BlueTint="100" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="False" />
-					<Frame XPosition="0.5" YPosition="-10"  Delay="4" Visible="True" XScale="2" YScale="4" RedTint="255" GreenTint="190" BlueTint="90"  AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="False" />
-				</NullAnimation>
-				<NullAnimation NullId="2" Visible="True">
-					<Frame XPosition="7.5" YPosition="-5.5" Delay="4" Visible="True" XScale="3" YScale="3" RedTint="255" GreenTint="190" BlueTint="90"  AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="False" />
-					<Frame XPosition="7.5" YPosition="-6.0" Delay="4" Visible="True" XScale="3" YScale="4" RedTint="255" GreenTint="200" BlueTint="100" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="False" />
-					<Frame XPosition="7.5" YPosition="-5.5" Delay="4" Visible="True" XScale="2" YScale="2" RedTint="255" GreenTint="130" BlueTint="70"  AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="False" />
-					<Frame XPosition="7.0" YPosition="-6.0" Delay="4" Visible="True" XScale="3" YScale="3" RedTint="255" GreenTint="190" BlueTint="90"  AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="False" />
-				</NullAnimation>
-				<NullAnimation NullId="3" Visible="True">
-					<Frame XPosition="7.0" YPosition="4.5" Delay="4" Visible="True" XScale="3" YScale="2" RedTint="255" GreenTint="190" BlueTint="90"  AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="False" />
-					<Frame XPosition="7.0" YPosition="4.0" Delay="4" Visible="True" XScale="3" YScale="3" RedTint="255" GreenTint="200" BlueTint="100" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="False" />
-					<Frame XPosition="6.5" YPosition="4.5" Delay="4" Visible="True" XScale="2" YScale="2" RedTint="255" GreenTint="150" BlueTint="80"  AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="False" />
-					<Frame XPosition="6.5" YPosition="4.0" Delay="4" Visible="True" XScale="2" YScale="4" RedTint="255" GreenTint="190" BlueTint="90"  AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="False" />
-				</NullAnimation>
-				<NullAnimation NullId="4" Visible="True">
-					<Frame XPosition="-6.5" YPosition="3.5" Delay="4" Visible="True" XScale="2" YScale="2" RedTint="255" GreenTint="130" BlueTint="70"  AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="False" />
-					<Frame XPosition="-7.0" YPosition="3.5" Delay="4" Visible="True" XScale="4" YScale="2" RedTint="255" GreenTint="190" BlueTint="90"  AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="False" />
-					<Frame XPosition="-7.0" YPosition="3.0" Delay="4" Visible="True" XScale="3" YScale="3" RedTint="255" GreenTint="210" BlueTint="100" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="False" />
-					<Frame XPosition="-6.5" YPosition="3.5" Delay="4" Visible="True" XScale="3" YScale="3" RedTint="255" GreenTint="150" BlueTint="80"  AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="False" />
-				</NullAnimation>
-			</NullAnimations>
+			<NullAnimations/>
 			<Triggers/>
 		</Animation>
 		<Animation Name="Prop40" FrameNum="14" Loop="true">
@@ -577,13 +501,7 @@
 					<Frame XPosition="0" YPosition="0" XPivot="13" YPivot="13" XCrop="234" YCrop="130" Width="26" Height="26" XScale="100" YScale="100" Delay="5" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false"/>
 				</LayerAnimation>
 			</LayerAnimations>
-			<NullAnimations>
-				<NullAnimation NullId="0" Visible="True">
-					<Frame XPosition="-0.5" YPosition="3.5" Delay="5" Visible="True" XScale="2" YScale="2" RedTint="255" GreenTint="150" BlueTint="70"  AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="False" />
-					<Frame XPosition="-0.5" YPosition="3.0" Delay="5" Visible="True" XScale="2" YScale="4" RedTint="255" GreenTint="200" BlueTint="100" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="False" />
-					<Frame XPosition="-0.5" YPosition="3.5" Delay="5" Visible="True" XScale="3" YScale="5" RedTint="255" GreenTint="190" BlueTint="90"  AlphaTint="220" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="False" />
-				</NullAnimation>
-			</NullAnimations>
+			<NullAnimations/>
 			<Triggers/>
 		</Animation>
 		<Animation Name="Prop41" FrameNum="1" Loop="false">

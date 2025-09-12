@@ -17,7 +17,6 @@
 			<Event Name="Destructible" Id="0"/>
 			<Event Name="Invincible" Id="1"/>
 			<Event Name="Poof" Id="2"/>
-			<Event Name="Shoot" Id="3"/>
 		</Events>
 	</Content>
 	<Animations DefaultAnimation="WalkHori">
@@ -117,7 +116,6 @@
 				<Trigger EventId="0" AtFrame="10"/>
 				<Trigger EventId="2" AtFrame="26"/>
 				<Trigger EventId="1" AtFrame="53"/>
-				<Trigger EventId="3" AtFrame="24"/>
 			</Triggers>
 		</Animation>
 		<Animation Name="Idle" FrameNum="1" Loop="true">

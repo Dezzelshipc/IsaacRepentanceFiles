@@ -14,10 +14,14 @@
 		<png path="gfx/items/pick ups/pickup_018_littlebattery.png" />
 	</preload>
 	<preload id="player tears">
+		<png path="gfx/tears.png" />
 		<png path="gfx/effects/effect_032_bloodstains.png" />
+		<png path="gfx/effects/effect_015_tearpoofb.png" />
+		<png path="gfx/effects/effect_015_tearpoofa.png" />
 	</preload>
 	<preload id="enemy">
-		<png path="gfx/bulletatlas.png" />
+		<png path="gfx/enemybullets.png" />
+		<png path="gfx/effects/effect_003_bloodtear.png" />
 		<png path="gfx/effects/Effect_009_Poof01.png" />
 		<png path="gfx/effects/Effect_009_Poof01_Large.png" />
 		<png path="gfx/effects/Effect_009_Poof01_Small.png" />
@@ -26,6 +30,8 @@
 		<png path="gfx/effects/Effect_001_BatteryEffect.png" />
 		<png path="gfx/effects/Effect_029_Explosion.png" />
 		<png path="gfx/effects/Effect_006_HeartEffect.png" />
+		<png path="gfx/effects/Effect_002_BloodPoof.png" />
+		<png path="gfx/effects/Effect_002_BloodPoof_Large1.png" />
 		<png path="gfx/effects/Effect_002_BloodPoof_Large2.png" />
 		<png path="gfx/effects/Effect_002_BloodPoof_Small.png" />
 		<png path="gfx/effects/effect_030_bloodgibs.png" />

@@ -12,7 +12,6 @@
 		<Nulls/>
 		<Events>
 			<Event Name="Prize" Id="0"/>
-			<Event Name="Disappear" Id="1"/>
 		</Events>
 	</Content>
 	<Animations DefaultAnimation="Idle">
@@ -145,9 +144,7 @@
 				<LayerAnimation LayerId="2" Visible="true"/>
 			</LayerAnimations>
 			<NullAnimations/>
-			<Triggers>
-				<Trigger EventId="1" AtFrame="13"/>
-			</Triggers>
+			<Triggers/>
 		</Animation>
 		<Animation Name="PayNothing" FrameNum="28" Loop="false">
 			<RootAnimation>

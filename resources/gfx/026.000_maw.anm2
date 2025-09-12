@@ -1,5 +1,5 @@
 <AnimatedActor>
-	<Info CreatedBy="robot" CreatedOn="03-May-19 4:13:16 PM" Version="104" Fps="30"/>
+	<Info CreatedBy="robot" CreatedOn="5/16/2014 2:14:50 PM" Version="103" Fps="30"/>
 	<Content>
 		<Spritesheets>
 			<Spritesheet Path="Monsters/Classic/Monster_141_Maw.png" Id="0"/>
@@ -8,11 +8,9 @@
 			<Layer Name="body" Id="0" SpritesheetId="0"/>
 		</Layers>
 		<Nulls>
-			<Null Name="OverlayEffect" Id="0" ShowRect="false"/>
+			<Null Name="OverlayEffect" Id="0"/>
 		</Nulls>
-		<Events>
-			<Event Name="Shoot" Id="0"/>
-		</Events>
+		<Events/>
 	</Content>
 	<Animations DefaultAnimation="Idle">
 		<Animation Name="Idle" FrameNum="2" Loop="true">
@@ -75,9 +73,7 @@
 					<Frame XPosition="0" YPosition="-40" XScale="100" YScale="100" Delay="1" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false"/>
 				</NullAnimation>
 			</NullAnimations>
-			<Triggers>
-				<Trigger EventId="0" AtFrame="4"/>
-			</Triggers>
+			<Triggers/>
 		</Animation>
 		<Animation Name="BodySegment" FrameNum="1" Loop="false">
 			<RootAnimation>
