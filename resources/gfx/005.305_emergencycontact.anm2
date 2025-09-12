@@ -8,9 +8,7 @@
 			<Layer Name="body" Id="0" SpritesheetId="0"/>
 		</Layers>
 		<Nulls/>
-		<Events>
-			<Event Name="DropSound" Id="0"/>
-		</Events>
+		<Events/>
 	</Content>
 	<Animations DefaultAnimation="Idle">
 		<Animation Name="Collect" FrameNum="16" Loop="false">
@@ -54,9 +52,7 @@
 				</LayerAnimation>
 			</LayerAnimations>
 			<NullAnimations/>
-			<Triggers>
-				<Trigger EventId="0" AtFrame="26"/>
-			</Triggers>
+			<Triggers/>
 		</Animation>
 		<Animation Name="Idle" FrameNum="1" Loop="false">
 			<RootAnimation>

@@ -32,10 +32,4 @@
 	<boss id="264" variant="0"><color idx="1" scale="0.67" hp="0.9"/><color idx="23" hp="1.15" /></boss><!-- Mega Fatty: Red, Brown -->
 	<boss id="265" variant="0"><color idx="3" /><color idx="20" hp="0.5" /></boss><!-- Cage: Green, Pink -->
 	<boss id="269" variant="0"><color idx="1" /><color idx="20" hp="0.5" /></boss><!-- Polycephalus: Red, Pink -->
-	<boss id="404" variant="0"><color idx="18" /><color idx="6" /></boss><!-- Lil Horn: Black, Orange -->
-	<boss id="405" variant="0"><color idx="1" /><color idx="18" /></boss><!-- Rag Man: Red, Black -->
-	<boss id="62" variant="2"><color idx="18" hp="1.3"/></boss><!-- Frail: Black -->
-	<boss id="402" variant="0"><color idx="18"/></boss><!-- Brownie: Black -->
-    <boss id="401" variant="0"><color idx="2"/></boss><!-- Stain: Pale -->
-    <boss id="403" variant="0"><color idx="18"/></boss><!-- Forsaken: Black -->
 </bosscolors>

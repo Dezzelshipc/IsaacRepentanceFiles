@@ -119,12 +119,4 @@
 		<videopart file="Krystal_Isaac_Ending_2.ogv" />
 		<anm2part anm2="Credits.anm2" anim="Credits" music="60" width="480" height="270" letterbox="true" />
 	</cutscene>
-	<cutscene id="22" name="The Void">
-		<videopart file="The_Void_Ending.ogv" />
-		<anm2part anm2="Credits.anm2" anim="Credits" music="60" width="480" height="270" letterbox="true" />
-	</cutscene>
-	<cutscene id="23" name="Greedier">
-		<videopart file="Krystal_Greedier_Ending.ogv" />
-		<anm2part anm2="Credits.anm2" anim="Credits" music="60" width="480" height="270" letterbox="true" />
-	</cutscene>
 </cutscenes>

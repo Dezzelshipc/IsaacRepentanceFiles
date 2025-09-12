@@ -47,7 +47,7 @@
 			<NullAnimations />
 			<Triggers />
 		</Animation>
-		<Animation FrameNum="16" Loop="true" Name="FloatDown">
+		<Animation FrameNum="16" Loop="false" Name="FloatDown">
 			<RootAnimation>
 				<Frame AlphaTint="255" BlueOffset="0" BlueTint="255" Delay="16" GreenOffset="0" GreenTint="255" RedOffset="0" RedTint="255" Rotation="0" Visible="true" XPosition="0" XScale="100" YPosition="0" YScale="100" />
 			</RootAnimation>
@@ -66,7 +66,7 @@
 			<NullAnimations />
 			<Triggers />
 		</Animation>
-		<Animation FrameNum="16" Loop="true" Name="FloatSide">
+		<Animation FrameNum="16" Loop="false" Name="FloatSide">
 			<RootAnimation>
 				<Frame AlphaTint="255" BlueOffset="0" BlueTint="255" Delay="16" GreenOffset="0" GreenTint="255" RedOffset="0" RedTint="255" Rotation="0" Visible="true" XPosition="0" XScale="100" YPosition="0" YScale="100" />
 			</RootAnimation>
@@ -85,7 +85,7 @@
 			<NullAnimations />
 			<Triggers />
 		</Animation>
-		<Animation FrameNum="16" Loop="true" Name="FloatUp">
+		<Animation FrameNum="16" Loop="false" Name="FloatUp">
 			<RootAnimation>
 				<Frame AlphaTint="255" BlueOffset="0" BlueTint="255" Delay="16" GreenOffset="0" GreenTint="255" RedOffset="0" RedTint="255" Rotation="0" Visible="true" XPosition="0" XScale="100" YPosition="0" YScale="100" />
 			</RootAnimation>
@@ -140,7 +140,7 @@
 			<NullAnimations />
 			<Triggers />
 		</Animation>
-		<Animation FrameNum="16" Loop="true" Name="FloatShootDown">
+		<Animation FrameNum="16" Loop="false" Name="FloatShootDown">
 			<RootAnimation>
 				<Frame AlphaTint="255" BlueOffset="0" BlueTint="255" Delay="16" GreenOffset="0" GreenTint="255" RedOffset="0" RedTint="255" Rotation="0" Visible="true" XPosition="0" XScale="100" YPosition="0" YScale="100" />
 			</RootAnimation>
@@ -159,7 +159,7 @@
 			<NullAnimations />
 			<Triggers />
 		</Animation>
-		<Animation FrameNum="16" Loop="true" Name="FloatShootSide">
+		<Animation FrameNum="16" Loop="false" Name="FloatShootSide">
 			<RootAnimation>
 				<Frame AlphaTint="255" BlueOffset="0" BlueTint="255" Delay="16" GreenOffset="0" GreenTint="255" RedOffset="0" RedTint="255" Rotation="0" Visible="true" XPosition="0" XScale="100" YPosition="0" YScale="100" />
 			</RootAnimation>
@@ -178,7 +178,7 @@
 			<NullAnimations />
 			<Triggers />
 		</Animation>
-		<Animation FrameNum="16" Loop="true" Name="FloatShootUp">
+		<Animation FrameNum="16" Loop="false" Name="FloatShootUp">
 			<RootAnimation>
 				<Frame AlphaTint="255" BlueOffset="0" BlueTint="255" Delay="16" GreenOffset="0" GreenTint="255" RedOffset="0" RedTint="255" Rotation="0" Visible="true" XPosition="0" XScale="100" YPosition="0" YScale="100" />
 			</RootAnimation>

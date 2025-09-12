@@ -40,7 +40,7 @@
 	<track id="81" name="Boss (jingle)" path="JINGLE OGG/Boss Fight intro jingle V2.1.ogg" loop="false" />
 	<track id="83" name="Boss Death (jingle)" path="JINGLE OGG/Boss FIght jingle OUTRO v2_12.ogg" loop="false" />
 	<track id="84" name="Holy Room Find (jingle)" path="JINGLE OGG/Angel Room Appear V2_07.ogg" loop="false" />
-	<track id="85" name="Secret Room Find (jingle)" path="JINGLE OGG/secret room find v2_07.ogg" loop="false" />
+	<track id="85" name="Secret Room Find (jingle)" path="JINGLE OGG/secret room find #2_07.ogg" loop="false" />
 	<track id="87" name="Treasure Room Entry (jingle) 1" path="JINGLE OGG/treasure room discoverA.ogg" loop="false" />
 	<track id="88" name="Treasure Room Entry (jingle) 2" path="JINGLE OGG/treasure room discoverB.ogg" loop="false" />
 	<track id="89" name="Treasure Room Entry (jingle) 3" path="JINGLE OGG/treasure room discoverC.ogg" loop="false" />
@@ -55,6 +55,4 @@
 	<track id="98" name="Boss Hush Death (jingle)" path="Afterbirth/Morituros (dead womb boss) outro.ogg" loop="false" />
 	<track id="100" name="Intro Voiceover" path="IntroVoiceover.ogg" loop="false" />
 	<track id="101" name="Epilogue Voiceover" path="Epilogue_01m.ogg" loop="false" />
-	<track id="102" name="Void" path="Void.ogg" loop="true" />
-	<track id="103" name="Boss (Void)" path="Fight Ogg/Delirium Fight.ogg" loop="true" />
 </music>

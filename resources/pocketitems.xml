@@ -26,35 +26,25 @@
 	<card description="Item multiplier" hud="26_TwoOfDiamonds" id="24" name="2 of Diamonds" />
 	<card description="Item multiplier" hud="24_TwoOfSpades" id="25" name="2 of Spades" />
 	<card description="Item multiplier" hud="23_TwoOfHearts" id="26" name="2 of Hearts" />
-	<card achievement="322" description="Convert all" hud="38_AceOfClubs" id="27" name="Ace of Clubs" />
-	<card achievement="326" description="Convert all" hud="39_AceOfDiamonds" id="28" name="Ace of Diamonds" />
-	<card achievement="327" description="Convert all" hud="36_AceOfSpades" id="29" name="Ace of Spades" />
-	<card achievement="329" description="Convert all" hud="37_AceOfHearts" id="30" name="Ace of Hearts" />
-	<card description="???" hud="22_TheJoker" id="31" name="Joker" greedmode="false" />
-	<rune achievement="89" description="Destruction" id="32" name="Hagalaz" />
-	<rune achievement="90" description="Abundance" id="33" name="Jera" />
-	<rune achievement="91" description="Passage" id="34" name="Ehwaz" />
-	<rune achievement="92" description="Purity" id="35" name="Dagaz" />
-	<rune achievement="93" description="Vision" id="36" name="Ansuz" />
-	<rune achievement="94" description="Change" id="37" name="Perthro" />
-	<rune achievement="95" description="Companionship" id="38" name="Berkano" />
-	<rune achievement="96" description="Resistance" id="39" name="Algiz" />
-	<rune achievement="233" description="???" id="40" name="Blank Rune" />
-	<rune achievement="309" description="Void" id="41" name="Black Rune" />
-	<card achievement="97" description="???" hud="28_ChaosCard" id="42" name="Chaos Card" />
-	<card achievement="98" description="Charge it!" hud="29_CreditCard" id="43" name="Credit Card" />
-	<card achievement="99" description="???" hud="30_RulesCard" id="44" name="Rules Card" />
-	<card achievement="100" description="Something stinks..." hud="31_CardAgainstHumanity" id="45" name="A Card Against Humanity" />
-	<card achievement="120" description="A true ending?" hud="27_SuicideKing" id="46" name="Suicide King" />
-	<card achievement="225" description="Open Sesame" hud="32_GetOutOfJail" id="47" name="Get Out Of Jail Free Card" />
-	<card description="Double active" hud="33_MysteryCard" id="48" name="? Card" />
-	<card description="D6 + D20" hud="34_DiceShard" id="49" name="Dice Shard" />
-	<card description="Help from above" hud="35_EmergencyContact" id="50" name="Emergency Contact" />
-	<card achievement="293" description="You feel protected" hud="40_HolyCard" id="51" name="Holy Card" />
-	<!-- Booster Pack #1 -->
-	<card achievement="361" description="Become immense!" hud="52_HugeGrowth" name="Huge Growth" id="52" />
-	<card achievement="362" description="Draw 3 cards" hud="53_AncientRecall" name="Ancient Recall" id="53" />
-	<card achievement="363" description="Savor the moment" hud="54_EraWalk" name="Era Walk" id="54" />
+	<card description="???" hud="22_TheJoker" id="27" name="Joker" greedmode="false" />
+	<rune achievement="89" description="Destruction" id="28" name="Hagalaz" />
+	<rune achievement="90" description="Abundance" id="29" name="Jera" />
+	<rune achievement="91" description="Passage" id="30" name="Ehwaz" />
+	<rune achievement="92" description="Purity" id="31" name="Dagaz" />
+	<rune achievement="93" description="Vision" id="32" name="Ansuz" />
+	<rune achievement="94" description="Change" id="33" name="Perthro" />
+	<rune achievement="95" description="Companionship" id="34" name="Berkano" />
+	<rune achievement="96" description="Resistance" id="35" name="Algiz" />
+	<rune achievement="232" description="???" id="36" name="Blank Rune" />
+	<card achievement="97" description="???" hud="28_ChaosCard" id="37" name="Chaos Card" />
+	<card achievement="98" description="Charge it!" hud="29_CreditCard" id="38" name="Credit Card" />
+	<card achievement="99" description="???" hud="30_RulesCard" id="39" name="Rules Card" />
+	<card achievement="100" description="Something stinks..." hud="31_CardAgainstHumanity" id="40" name="A Card Against Humanity" />
+	<card achievement="120" description="A true ending?" hud="27_SuicideKing" id="41" name="Suicide King" />
+	<card achievement="225" description="Open Sesame" hud="32_GetOutOfJail" id="42" name="Get Out Of Jail Free Card" />
+	<card description="Double Active" hud="33_MysteryCard" id="43" name="? Card" />
+	<card description="D6 + D20" hud="34_DiceShard" id="44" name="Dice Shard" />
+	<card description="Help from above" hud="35_EmergencyContact" id="45" name="Emergency Contact" />
 
 	<pilleffect id="0" name="Bad Gas" />
 	<pilleffect id="1" name="Bad Trip" />
@@ -95,12 +85,4 @@
 	<pilleffect id="36" name="Power Pill!" />
 	<pilleffect id="37" name="Retro Vision" />
 	<pilleffect id="38" name="Friends Till The End!" />
-	<pilleffect id="39" name="X-Lax" />
-	<pilleffect id="40" name="Something's wrong..." />
-	<pilleffect id="41" name="I'm Drowsy..." />
-	<pilleffect id="42" name="I'm Excited!!!" />
-	<pilleffect achievement="321" id="43" name="Gulp!" />
-	<pilleffect achievement="325" id="44" name="Horf!" />
-	<pilleffect achievement="324" id="45" name="Feels like I'm walking on sunshine!" />
-	<pilleffect achievement="330" id="46" name="Vurp!" />
 </pocketitems>

@@ -37,6 +37,4 @@
 	<entry id="36" anm2="GiantBook.anm2" anim="Shake" gfx="GiantBook_Rebirth_012_D8.png" />
 	<entry id="37" anm2="GiantBook.anm2" anim="Shake" gfx="GiantBook_Rebirth_013_D12.png" />
 	<entry id="38" anm2="GiantBook_SuperBum.anm2" anim="Main" gfx="GiantBook_SuperBum.png" />
-	<entry id="39" anm2="GiantBook_Clicker.anm2" anim="Effect" gfx="GiantBook_Clicker.png" />
-	<entry id="40" anm2="GiantBook_MaMa_Mega.anm2" anim="Idle" gfx="GiantBook_015_White.png" />
 </giantbook>

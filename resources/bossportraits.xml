@@ -263,24 +263,4 @@
 		nameimage="BossName_TheFrail.png"
 		portrait="Portrait_TheFrail.png"
 		pivotX="96" pivotY="132" />
-	<boss id="67" name="Rag Mega"
-		nameimage="BossName_RagMega.png"
-		portrait="Portrait_RagMega.png"
-		pivotX="96" pivotY="132" />
-	<boss id="68" name="Sisters Vis"
-		nameimage="BossName_SisterssVis.png"
-		portrait="Portrait_SistersVis.png"
-		pivotX="96" pivotY="132" />
-	<boss id="69" name="Big Horn"
-		nameimage="BossName_BigHorn.png"
-		portrait="Portrait_BigHorn.png"
-		pivotX="96" pivotY="156" />
-	<boss id="70" name="Delirium"
-		nameimage="BossName_Delirium.png"
-		portrait="Portrait_Delirium.png"
-		pivotX="96" pivotY="132" />
-	<boss id="72" name="The Matriarch"
-		nameimage="BossName_Matriarch.png"
-		portrait="Portrait_Matriarch.png"
-		pivotX="86" pivotY="160" />
 </bosses>

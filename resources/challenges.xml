@@ -21,9 +21,8 @@
 * coins = add coins
 * maxdamage = maximal damage or more (clamps at min 100)
 * adddamage = + damage up
-* minfirerate = minimal fire rate or more
+* minfirerate = minimal fire rate or less
 * minshotspeed = minimal shot speed or less
-* bigrange = big range
 * difficulty = game difficulty (0 - normal | default, 1 - hard)
 * megasatan = last boss is megasatan
 -->
@@ -42,7 +41,7 @@
 	<challenge name="When Life Gives You Lemons" id="12" startingitems="56,156,116" startingpill="26" endstage="6" roomfilter="4" />
 	<challenge name="BEANS!" id="13" startingitems="209,190,180,111,116" endstage="6" roomfilter="4" canshoot="false" />
 	<challenge name="Its In The Cards" id="14" startingitems="251,85,116,63" startingcard="-1" endstage="6" roomfilter="4" />
-	<challenge name="Slow Roll" id="15" startingitems="169,48,5" endstage="6" roomfilter="4" maxdamage="true" minfirerate="60.0" minshotspeed="true" />
+	<challenge name="Slow Roll" id="15" startingitems="169,48,5" endstage="6" roomfilter="4" maxdamage="true" minfirerate="true" minshotspeed="true" />
 	<challenge name="Computer Savy" id="16" startingitems="68,152,3" endstage="6" roomfilter="4" />
 	<challenge name="WAKA WAKA" id="17" startingitems="315,222" endstage="6" roomfilter="4" />
 	<challenge name="The Host" id="18" startingitems="151,211" startingtrinkets="53" endstage="6" roomfilter="4" />
@@ -54,15 +53,9 @@
 	<challenge name="Blue Bomber" id="23" endstage="10" altpath="false" startingitems="40,106,223,8" roomfilter="4" playertype="4" canshoot="false" achievements="28,34" />
 	<challenge name="PAY TO PLAY" id="24" endstage="10" altpath="true" startingitems="94,109" roomfilter="4" coins="50" achievements="28,21" />
 	<challenge name="Have a heart" id="25" endstage="8" startingitems="62" maxhp="18" redhp="-4" achievements="4" />
-	<challenge name="I RULE!" id="26" endstage="12" roomfilter="4" startingitems="114,243,338,60,238,239" difficulty="1" megasatan="true" achievements="43,78,155" />
+	<challenge name="I RULE!" id="26" endstage="12" roomfilter="4" startingitems="114,243,338,60,238,239" difficulty="1" megasatan="true" achievements="43,155" />
 	<challenge name="BRAINS!" id="27" endstage="11" altpath="true" roomfilter="4" startingitems="273,273,273,314" playertype="4" canshoot="false" achievements="57" />
 	<challenge name="PRIDE DAY!" id="28" endstage="8" roomfilter="4" startingitems="174,191" startingtrinkets="64" achievements="4" />
 	<challenge name="Onan's Streak" id="29" endstage="10" altpath="true" startingitems="69" playertype="3" achievements="4" adddamage="2" />
 	<challenge name="The Guardian" id="30" endstage="8" roomfilter="4" achievements="4" startingitems="281,276,184,400" canshoot="false"/>
-	
-	<challenge name="Backasswards" id="31" endstage="12" roomfilter="4" cursefilter="2" megasatan="true" maxhp="14" redhp="14" achievements="155" />
-	<challenge name="Aprils fool" id="32" endstage="8" achievements="4" />
-	<challenge name="Pokey mans" id="33" endstage="10" roomfilter="4" altpath="true" startingitems="200,382" achievements="34"/>
-	<challenge name="Ultra hard" id="34" endstage="12" megasatan="true" getcurse="102" achievements="78,155" startingitems="238,239" />
-	<challenge name="PONG" id="35" endstage="11" altpath="true" roomfilter="4" startingitems="48,221" maxdamage="true" minfirerate="150" bigrange="true" achievements="57"/>
 </challenges>

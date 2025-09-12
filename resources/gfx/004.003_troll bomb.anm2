@@ -9,9 +9,7 @@
 			<Layer Name="Hole" Id="1" SpritesheetId="0"/>
 		</Layers>
 		<Nulls/>
-		<Events>
-			<Event Name="DropSound" Id="0"/>
-		</Events>
+		<Events/>
 	</Content>
 	<Animations DefaultAnimation="Collect">
 		<Animation Name="Collect" FrameNum="16" Loop="false">
@@ -57,9 +55,7 @@
 				</LayerAnimation>
 			</LayerAnimations>
 			<NullAnimations/>
-			<Triggers>
-				<Trigger EventId="0" AtFrame="25"/>
-			</Triggers>
+			<Triggers/>
 		</Animation>
 		<Animation Name="Pulse" FrameNum="59" Loop="false">
 			<RootAnimation>
@@ -170,9 +166,7 @@
 				</LayerAnimation>
 			</LayerAnimations>
 			<NullAnimations/>
-			<Triggers>
-				<Trigger EventId="0" AtFrame="16"/>
-			</Triggers>
+			<Triggers/>
 		</Animation>
 	</Animations>
 </AnimatedActor>
