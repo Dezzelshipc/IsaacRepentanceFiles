@@ -7,7 +7,7 @@ import requests
 from utility import *
 
 if __name__ == '__main__':
-    rep_plus_info_url = rep_plus_url + "/resources/info_display.xml"
+    rep_plus_info_url = rep_plus_url + "/info_display.xml"
     rep_plus_info = requests.get(rep_plus_info_url)
     assert rep_plus_info.status_code == 200
     info_root = ET.fromstring(f"<roots>{rep_plus_info.text}</roots>")

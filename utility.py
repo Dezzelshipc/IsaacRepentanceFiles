@@ -3,12 +3,19 @@ from io import StringIO
 
 _root_url = "https://raw.githubusercontent.com/Dezzelshipc/IsaacRepentanceFiles/refs/heads"
 
-reb_url =       "%s/v1.05-Hotfix" % _root_url
-ab_url =        "%s/v1.06.0109" % _root_url
-ab_plus_url =   "%s/v1.06.J168" % _root_url
-rep_url =       "%s/v1.7.9b" % _root_url
-rep_plus_url =  "%s/main" % _root_url
+reb_url =       f"{_root_url}/v1.05-Hotfix/resources"
+ab_url =        f"{_root_url}/v1.06.0109/resources"
+ab_plus_url =   f"{_root_url}/v1.06.J168/resources"
+rep_url =       f"{_root_url}/v1.7.9b/resources-dlc3"
+rep_plus_url =  f"{_root_url}/main/resources"
 
+url_dict = {
+    "reb": reb_url,
+    "ab": ab_url,
+    "abp": ab_plus_url,
+    "r": rep_url,
+    "rp": rep_plus_url,
+}
 
 def fix_lua_indent(text: str) -> str:
     depth = 0
@@ -21,7 +28,8 @@ def fix_lua_indent(text: str) -> str:
             if '}' in l:
                 depth -= 1
 
-            text_out.append(f"{"\t" * depth}{l}\n")
+            add_depth = '{' in l and '}' in l
+            text_out.append(f"{"\t" * (depth + add_depth)}{l}\n")
 
             if '{' in l:
                 depth += 1

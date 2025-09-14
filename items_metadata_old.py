@@ -11,23 +11,14 @@ if __name__ == "__main__":
     assert rep_meta.status_code == 200
     rep_root = ET.fromstring(rep_meta.text)
 
-    result = OrderedDict({
-        "items": {},
-        "trinkets": {}
-    })
+    out = OrderedDict()
 
     for child in rep_root:
-        tag = child.tag + "s"
+        tag = child.tag
         attrib = child.attrib
         # print(tag, attrib)
-        index = int(attrib["id"])
-        result[tag][index] = OrderedDict({
-            # "id": attrib["id"],
-            "r": OrderedDict({
-                "quality": attrib["quality"],
-                "tags": attrib["tags"],
-            })
-        })
+        index = attrib["id"] + child.tag[0]
+        out[index] = attrib.copy()
 
     rep_plus_meta_url = rep_plus_url + "/items_metadata.xml"
     rep_plus_meta = requests.get(rep_plus_meta_url)
@@ -35,14 +26,13 @@ if __name__ == "__main__":
     rep_plus_root = ET.fromstring(rep_plus_meta.text)
 
     for child in rep_plus_root:
-        tag = child.tag + "s"
+        tag = child.tag
         attrib = child.attrib
         # print(tag, attrib)
-        index = int(attrib["id"])
-        result[tag][index]["rp"] =  OrderedDict({
-            "quality": attrib["quality"],
-            "tags": attrib["tags"],
-        })
+        index = attrib["id"] + child.tag[0]
+        for key, val in attrib.items():
+            if key != "id":
+                out[index][key+"_plus"] = val
 
     rep_plus_item_url = rep_plus_url + "/items.xml"
     rep_plus_item = requests.get(rep_plus_item_url)
@@ -61,8 +51,8 @@ if __name__ == "__main__":
 
         if tag in convert.keys():
             # print(tag, attrib)
-            index = int(attrib["id"])
-            result["items"][index]["type"] = convert[tag]
+            index = attrib["id"] + "i"
+            out[index]["type"] = convert[tag]
 
     with open("items_metadata_out.lua", "w") as f:
-        f.write(fix_lua_indent(lua.encode(result)))
+        f.write(lua.encode(out))
