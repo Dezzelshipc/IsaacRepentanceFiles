@@ -1,68 +1,79 @@
-from collections import OrderedDict
+from collections import OrderedDict, defaultdict
 import xml.etree.ElementTree as ET
 from slpp import slpp as lua
 import requests
 from utility import *
 
 
-if __name__ == "__main__":
-    rep_meta_url = rep_url + "/items_metadata.xml"
-    rep_meta = requests.get(rep_meta_url)
-    assert rep_meta.status_code == 200
-    rep_root = ET.fromstring(rep_meta.text)
+def recursive_dict():
+    return defaultdict(recursive_dict)
 
-    result = OrderedDict({
-        "items": {},
-        "trinkets": {}
-    })
 
-    for child in rep_root:
-        tag = child.tag + "s"
-        attrib = child.attrib
-        # print(tag, attrib)
-        index = int(attrib["id"])
-        result[tag][index] = OrderedDict({
-            # "id": attrib["id"],
-            "r": OrderedDict({
-                "quality": attrib["quality"],
-                "tags": attrib["tags"],
-            })
-        })
+def get_qt_dict(tag, attrib):
+    qt_dict = OrderedDict()
+    if tag in ["items"] and "quality" in attrib:
+        qt_dict["quality"] = int(attrib["quality"])
+    if "craftquality" in attrib:
+        qt_dict["craftquality"] = int(attrib["craftquality"])
+    qt_dict["tags"] = attrib["tags"]
 
-    rep_plus_meta_url = rep_plus_url + "/items_metadata.xml"
-    rep_plus_meta = requests.get(rep_plus_meta_url)
-    assert rep_plus_meta.status_code == 200
-    rep_plus_root = ET.fromstring(rep_plus_meta.text)
+    return qt_dict
 
-    for child in rep_plus_root:
-        tag = child.tag + "s"
-        attrib = child.attrib
-        # print(tag, attrib)
-        index = int(attrib["id"])
-        result[tag][index]["rp"] =  OrderedDict({
-            "quality": attrib["quality"],
-            "tags": attrib["tags"],
-        })
 
-    rep_plus_item_url = rep_plus_url + "/items.xml"
-    rep_plus_item = requests.get(rep_plus_item_url)
-    assert rep_plus_item.status_code == 200
-    rep_plus_item_root = ET.fromstring(rep_plus_item.text)
+def add_metadata(res, dlc, url):
+    if dlc in list(url_dict.keys())[-2:]:
+        print("Loading", dlc, "items_metadata.xml")
 
-    convert = {
-        "passive": "passive",
-        "familiar": "passive",
-        "active": "active"
-    }
+        meta_url = url + "/items_metadata.xml"
+        meta_resp = requests.get(meta_url)
+        assert meta_resp.status_code == 200
 
-    for child in rep_plus_item_root:
-        tag = child.tag
-        attrib = child.attrib
+        items_root = ET.fromstring(meta_resp.text)
 
-        if tag in convert.keys():
-            # print(tag, attrib)
+        for item in items_root:
+            tag = item.tag + "s"
+            attrib = item.attrib
+
             index = int(attrib["id"])
-            result["items"][index]["type"] = convert[tag]
+            res[tag][index][dlc].update(get_qt_dict(tag, attrib))
+
+
+convert_types = {
+    "passive": "passive",
+    "familiar": "passive",
+    "active": "active"
+}
+
+
+def add_items_data(res, dlc, url):
+    print("Loading", dlc, "items.xml")
+
+    items_url = url + "/items.xml"
+    items_resp = requests.get(items_url)
+    assert items_resp.status_code == 200
+
+    items_root = ET.fromstring(items_resp.text)
+
+    for item in items_root:
+        tag = item.tag
+        attrib = item.attrib
+
+        if tag in convert_types.keys() and "gfx" in attrib:
+            index = int(attrib["id"])
+
+            res["items"][index]["type"] = convert_types[tag]
+
+            if (devilprice := attrib.get("devilprice")) and int(devilprice) > 1:
+                res["items"][index][dlc]["devilprice"] = int(devilprice)
+
+
+if __name__ == "__main__":
+    result = recursive_dict()
+
+    for dlc_, url_ in url_dict.items():
+        add_items_data(result, dlc_, url_)
+
+        add_metadata(result, dlc_, url_)
 
     with open("items_metadata_out.lua", "w") as f:
         f.write(fix_lua_indent(lua.encode(result)))
