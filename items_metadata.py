@@ -1,12 +1,10 @@
-from collections import OrderedDict, defaultdict
 import xml.etree.ElementTree as ET
-from slpp import slpp as lua
+from collections import OrderedDict
+
 import requests
-from utility import *
+from slpp import slpp as lua
 
-
-def recursive_dict():
-    return defaultdict(recursive_dict)
+from utility import url_dict, recursive_dict, fix_lua_indent
 
 
 def get_qt_dict(tag, attrib):

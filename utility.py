@@ -1,4 +1,5 @@
 import re
+from collections import defaultdict
 from io import StringIO
 
 _root_url = "https://raw.githubusercontent.com/Dezzelshipc/IsaacRepentanceFiles/refs/heads"
@@ -35,3 +36,6 @@ def fix_lua_indent(text: str) -> str:
                 depth += 1
 
     return "".join(text_out)
+
+def recursive_dict():
+    return defaultdict(recursive_dict)
