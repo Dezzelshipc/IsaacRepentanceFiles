@@ -1,3 +1,4 @@
+import itertools
 import xml.etree.ElementTree as ET
 
 import requests
@@ -62,6 +63,10 @@ def get_listed_pools():
     result_id_pool = dict(sorted(result_id_pool.items()))
     with open("itempools_id_pool_out.lua", "w") as f:
         f.write(fix_lua_indent(lua.encode(result_id_pool)))
+
+    print(",".join(itempools.keys()))
+
+    print(dict(zip(itempools.keys(), itertools.cycle(("",)))))
 
 
 if __name__ == "__main__":
