@@ -1,10 +1,8 @@
-import xml.etree.ElementTree as ET
 from collections import OrderedDict
 
-import requests
 from slpp import slpp as lua
 
-from utility import url_dict, recursive_dict, fix_lua_indent
+from utility import url_dict, recursive_dict, fix_lua_indent, get_single_root
 
 
 def get_qt_dict(tag, attrib):
@@ -22,11 +20,7 @@ def add_metadata(res, dlc, url):
     if dlc in list(url_dict.keys())[-2:]:
         print("Loading", dlc, "items_metadata.xml")
 
-        meta_url = url + "/items_metadata.xml"
-        meta_resp = requests.get(meta_url)
-        assert meta_resp.status_code == 200
-
-        items_root = ET.fromstring(meta_resp.text)
+        items_root = get_single_root(url, "/items_metadata.xml")
 
         for item in items_root:
             tag = item.tag + "s"
@@ -46,11 +40,7 @@ convert_types = {
 def add_items_data(res, dlc, url):
     print("Loading", dlc, "items.xml")
 
-    items_url = url + "/items.xml"
-    items_resp = requests.get(items_url)
-    assert items_resp.status_code == 200
-
-    items_root = ET.fromstring(items_resp.text)
+    items_root = get_single_root(url, "/items.xml")
 
     for item in items_root:
         tag = item.tag

@@ -1,10 +1,9 @@
-import xml.etree.ElementTree as ET
+import re
 from pathlib import Path
 
-import requests
 from slpp import slpp as lua
 
-from utility import *
+from utility import rep_plus_url, fix_lua_indent, get_mult_root
 
 
 def convert_types(data: dict[str, str]) -> dict[str, str | int | list[int]]:
@@ -14,16 +13,14 @@ def convert_types(data: dict[str, str]) -> dict[str, str | int | list[int]]:
         if val.isnumeric():
             return int(val)
         return val
+
     return {
         key: conv(val) for key, val in data.items()
     }
 
 
 if __name__ == '__main__':
-    rep_plus_info_url = rep_plus_url + "/info_display.xml"
-    rep_plus_info = requests.get(rep_plus_info_url)
-    assert rep_plus_info.status_code == 200
-    info_root = ET.fromstring(f"<roots>{rep_plus_info.text}</roots>")
+    info_root = get_mult_root(rep_plus_url, "/info_display.xml")
 
     for child in info_root:
         print(child.tag, child, child.attrib)

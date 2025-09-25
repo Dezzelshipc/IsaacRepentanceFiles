@@ -1,10 +1,7 @@
 import itertools
-import xml.etree.ElementTree as ET
 
-import requests
 from slpp import slpp as lua
-
-from utility import url_dict, fix_lua_indent, recursive_dict
+from utility import url_dict, fix_lua_indent, recursive_dict, get_single_root
 
 dlc_order = dict(zip(url_dict.keys(), range(len(url_dict.keys()))))
 
@@ -22,10 +19,7 @@ def get_itempools(is_dict=False):
 
     for dlc, url in url_dict.items():
         print("Loading", dlc)
-        itempools_url = url + "/itempools.xml"
-        itempools = requests.get(itempools_url)
-        assert itempools.status_code == 200
-        ItemPools = ET.fromstring(itempools.text)
+        ItemPools = get_single_root(url, "/itempools.xml")
 
         for Pool in ItemPools:
             pool = Pool.attrib["Name"]
