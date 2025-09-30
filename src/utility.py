@@ -58,3 +58,10 @@ def get_single_root(main_url: str, path: str):
     for child in mult:
         return child
     return None
+
+
+def get_single_root_strict(main_url: str, path: str):
+    rep_plus_info_url = main_url + path
+    rep_plus_info = requests.get(rep_plus_info_url)
+    assert rep_plus_info.status_code == 200
+    return ET.fromstring(rep_plus_info.text)

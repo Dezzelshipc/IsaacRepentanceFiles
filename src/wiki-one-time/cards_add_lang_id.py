@@ -1,6 +1,6 @@
 from slpp import slpp as lua
 
-from utility import fix_lua_indent, get_single_root, rep_plus_url
+from src.utility import fix_lua_indent, get_single_root, rep_plus_url
 
 if __name__ == "__main__":
     with open("name_in.lua", "r", encoding="utf-8") as f:

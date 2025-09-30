@@ -1,8 +1,6 @@
 from slpp import slpp as lua
 
-from utility import fix_lua_indent
-
-import re
+from src.utility import fix_lua_indent
 
 itempools = {
     'treasure': 'сокровищ_ф',
@@ -42,7 +40,6 @@ itempools = {
     'woodenChest': 'дсун_ф',
     'rottenBeggar': 'гнилой_ф'
 }
-
 
 if __name__ == "__main__":
     with open("name_in.lua", "r", encoding="utf-8") as f:

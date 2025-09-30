@@ -18,21 +18,28 @@ def convert_types(data: dict[str, str]) -> dict[str, str | int | list[int]]:
         key: conv(val) for key, val in data.items()
     }
 
-
-if __name__ == '__main__':
+def main() -> dict[str, str]:
     info_root = get_mult_root(rep_plus_url, "/info_display.xml")
 
-    for child in info_root:
-        print(child.tag, child, child.attrib)
+    result = {}
 
+    for child in info_root:
         entries = {}
 
         for entry in child:
             _id = int(entry.attrib["id"])
             entries[_id] = [convert_types(e.attrib) for e in entry]
 
-        save_path = Path(__file__).parent / "info_display_out"
-        save_path.mkdir(parents=True, exist_ok=True)
+        result[child.tag] = fix_lua_indent(lua.encode(entries))
 
-        with open(save_path / f"info_display_{child.tag}_out.lua", "w") as f:
-            f.write(fix_lua_indent(lua.encode(entries)))
+    return result
+
+if __name__ == '__main__':
+    data = main()
+
+    save_path = Path(__file__).parent / "info_display_out"
+    save_path.mkdir(parents=True, exist_ok=True)
+    for name, entries in data.items():
+
+        with open(save_path / f"info_display_{name}_out.lua", "w") as f:
+            f.write(entries)

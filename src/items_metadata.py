@@ -55,7 +55,7 @@ def add_items_data(res, dlc, url):
                 res["items"][index][dlc]["devilprice"] = int(devilprice)
 
 
-if __name__ == "__main__":
+def main():
     result = recursive_dict()
 
     for dlc_, url_ in url_dict.items():
@@ -63,5 +63,9 @@ if __name__ == "__main__":
 
         add_metadata(result, dlc_, url_)
 
+    return fix_lua_indent(lua.encode(result))
+
+
+if __name__ == "__main__":
     with open("items_metadata_out.lua", "w") as f:
-        f.write(fix_lua_indent(lua.encode(result)))
+        f.write(main())

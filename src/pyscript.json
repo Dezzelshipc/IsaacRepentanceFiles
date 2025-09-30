@@ -1,0 +1,11 @@
+{
+  "packages": [ "slpp==1.2.3", "requests==2.32.5" ],
+  "plugins": [ "!error" ],
+  "files": {
+    "./utility.py": "",
+    "./items_metadata.py" : "",
+    "./info_display.py": "",
+    "./itempools.py": "",
+    "./game_text.py": ""
+  }
+}

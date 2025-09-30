@@ -1,4 +1,5 @@
 import itertools
+from pathlib import Path
 
 from slpp import slpp as lua
 from utility import url_dict, fix_lua_indent, recursive_dict, get_single_root
@@ -30,15 +31,12 @@ def get_itempools(is_dict=False):
             if is_dict:
                 result[pool][dlc] = dict(result[pool][dlc])
 
-    with open("itempools_out.lua", "w") as f:
-        f.write(fix_lua_indent(lua.encode(result)))
-
     print(list(sorted(weights)))
 
+    return result
 
-def get_listed_pools():
-    with open("itempools_out.lua", "r") as f:
-        itempools = lua.decode(f.read())
+
+def get_listed_pools(itempools):
 
     result_pool_id = recursive_dict()
     result_id_pool = recursive_dict()
@@ -51,21 +49,37 @@ def get_listed_pools():
             result_pool_id[itempool][_id] = weights
             result_id_pool[_id][itempool] = weights
 
-    with open("itempools_pool_id_out.lua", "w") as f:
-        f.write(fix_lua_indent(lua.encode(result_pool_id)))
-
     result_id_pool = dict(sorted(result_id_pool.items()))
-    with open("itempools_id_pool_out.lua", "w") as f:
-        f.write(fix_lua_indent(lua.encode(result_id_pool)))
 
     print(",".join(itempools.keys()))
 
     print(dict(zip(itempools.keys(), itertools.cycle(("",)))))
 
+    return result_id_pool, result_pool_id
+
+
+def main():
+    _itempools = get_itempools(True)
+
+    _id_pool, _pool_id = get_listed_pools(_itempools)
+
+    return (
+        fix_lua_indent(lua.encode(_itempools)),
+        fix_lua_indent(lua.encode(_id_pool)),
+        fix_lua_indent(lua.encode(_pool_id))
+    )
 
 if __name__ == "__main__":
-    IS_DICT = True
-    get_itempools(IS_DICT)
+    itempools, id_pool, pool_id = main()
 
-    if IS_DICT:
-        get_listed_pools()
+    save_path = Path(__file__).parent / "itempools_out"
+    save_path.mkdir(parents=True, exist_ok=True)
+
+    with open(save_path / "itempools_out.lua", "w") as f:
+        f.write(itempools)
+
+    with open(save_path / "itempools_pool_id_out.lua", "w") as f:
+        f.write(pool_id)
+
+    with open(save_path / "itempools_id_pool_out.lua", "w") as f:
+        f.write(id_pool)

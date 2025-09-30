@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Isaac Wiki Data</title>
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.8.1/core.css">
+    <script type="module" src="https://pyscript.net/releases/2025.8.1/core.js"></script>
+    <script>
+        function copyCode() {
+          let data = document.querySelector("#output");
+          navigator.clipboard.writeText( data.innerText );
+        }
+    </script>
+    <style>
+        pre {
+            width: min-content;
+            border: 2px solid black;
+            padding: 4px;
+        }
+    </style>
+</head>
+<body>
+
+<table>
+    <tr>
+        <td>
+            <button py-click="items_metadata">items_metadata</button>
+        </td>
+        <td>
+            <button py-click="info_display_items">info_display (items)</button><br>
+            <button py-click="info_display_trinkets">info_display (trinkets)</button><br>
+            <button py-click="info_display_cards">info_display (cards)</button><br>
+            <button py-click="info_display_pills">info_display (pills)</button>
+        </td>
+        <td>
+            <button py-click="itempools_pool_dlc_id">itempools (pool: dlc: id)</button><br>
+            <button py-click="itempools_pool_id">itempools (pool: id: dlc)</button><br>
+            <button py-click="itempools_id_pool">itempools (id: pool: dlc) <-</button>
+        </td>
+        <td>
+            <button py-click="game_text_main">game_text</button>
+        </td>
+    </tr>
+</table>
+    <br>
+    <button onclick="copyCode()">Copy data to clipboard</button>
+
+    <pre class="language-lua" id="output"></pre>
+    <script type="py" src="./main.py" config="./src/pyscript.json"></script>
+</body>
+</html>
