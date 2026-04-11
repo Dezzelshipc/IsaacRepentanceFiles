@@ -3202,8 +3202,6 @@
 		<Item Id="35" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
 		<!--Pentagram-->
 		<Item Id="51" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
-		<!--Sister Maggy-->
-		<Item Id="67" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
 		<!--Technology-->
 		<Item Id="68" Weight="0.2" DecreaseBy="0.2" RemoveOn="0.02"/>
 		<!--A Quarter-->

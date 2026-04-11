@@ -1,8 +1,10 @@
 varying vec2 TexCoord0;
-varying float AmountOut;
-//varying vec2 NoiseOut;
-varying vec4 OutScreenSize;
+
 uniform sampler2D Texture0;
+
+uniform float Amount;
+//uniform vec2 Noise;
+uniform vec4 ScreenSize;
 
 /*float random (vec2 st) {
 	return fract(sin(dot(st.xy,
@@ -12,7 +14,7 @@ uniform sampler2D Texture0;
 
 void main(void)
 {
-	vec2 screenRatio = OutScreenSize.zw / OutScreenSize.xy;
+	vec2 screenRatio = ScreenSize.zw / ScreenSize.xy;
 	vec2 screenUV = TexCoord0 * screenRatio;
 
 	/*Vigneting*/
@@ -25,7 +27,7 @@ void main(void)
 	vec4 sum = vec4(0);
 	for(i = -1; i <= 1; i++) {
 		for (j = -1; j <= 1; j++) {
-			vec4 col = texture2D(Texture0, TexCoord0 + vec2(i, j) * 3.0 / OutScreenSize.zw);
+			vec4 col = texture2D(Texture0, TexCoord0 + vec2(i, j) * 3.0 / ScreenSize.zw);
 			sum += col * col * 0.13;
 		}
 	}
@@ -35,8 +37,8 @@ void main(void)
 	color.rgb = vec3(dot(vec3(0.2126,0.7152,0.0722), color.rgb));
 	color.rgb *= vec3(1.1, 1.0, 0.9);
 	color.rgb *= vignete;
-	vec4 finalColor = mix(origColor, color, AmountOut);
+	vec4 finalColor = mix(origColor, color, Amount);
 	/*Apply noise*/
-	//finalColor.rgb = mix(finalColor.rgb, vec3(random(TexCoord0 * (NoiseOut.y * 100.0))), NoiseOut.x);
+	//finalColor.rgb = mix(finalColor.rgb, vec3(random(TexCoord0 * (Noise.y * 100.0))), Noise.x);
 	gl_FragColor = finalColor;
 }

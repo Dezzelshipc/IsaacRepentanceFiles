@@ -5,13 +5,15 @@
 
 varying lowp vec4 Color0;
 varying mediump vec2 TexCoord0;
-varying lowp vec4 ColorizeOut;
-varying lowp vec3 ColorOffsetOut;
-varying lowp vec2 TextureSizeOut;
-varying lowp float PixelationAmountOut;
-varying lowp vec3 ClipPlaneOut;
 
 uniform sampler2D Texture0;
+
+uniform vec4	Colorize;
+uniform vec3	ColorOffset;
+uniform vec2	TextureSize;
+uniform float	PixelationAmount;
+uniform vec3	ClipPlane;
+
 //const vec3 _lum = vec3(0.212671, 0.715160, 0.072169);
 
 //
@@ -91,47 +93,47 @@ float snoise(vec2 v)
 void main(void)
 {
 	// Clip
-	if(dot(gl_FragCoord.xy, ClipPlaneOut.xy) < ClipPlaneOut.z)
+	if(dot(gl_FragCoord.xy, ClipPlane.xy) < ClipPlane.z)
 		discard;
 	
 	// Pixelate
-	vec2 pa = vec2(1.0+PixelationAmountOut, 1.0+PixelationAmountOut) / TextureSizeOut;
+	vec2 pa = vec2(1.0+PixelationAmount, 1.0+PixelationAmount) / TextureSize;
 	
 	vec2 uv_aligned = TexCoord0 - mod(TexCoord0, pa) + pa * 0.5;
-	vec2 uv = PixelationAmountOut > 0.0 ? uv_aligned : TexCoord0;
+	vec2 uv = PixelationAmount > 0.0 ? uv_aligned : TexCoord0;
 	
 	// Glitch distortion
-	float uOffset = snoise(vec2(ColorizeOut.a*1000.0, TextureSizeOut.x * 0.5 * uv_aligned.y));
-	uOffset = uOffset * ColorizeOut.r * 10.0 / TextureSizeOut.x;
+	float uOffset = snoise(vec2(Colorize.a*1000.0, TextureSize.x * 0.5 * uv_aligned.y));
+	uOffset = uOffset * Colorize.r * 10.0 / TextureSize.x;
 	uv.x += uOffset;
 	
 	vec4 Color = texture2D(Texture0, uv);
 	
 	if( Color.a == 0.0 )	discard;
 	
-	//vec3 Colorized = mix(Color.rgb, dot(Color.rgb, _lum) * ColorizeOut.rgb, ColorizeOut.a);
-	//gl_FragColor = vec4(Colorized + ColorOffsetOut * Color.a, Color.a);
+	//vec3 Colorized = mix(Color.rgb, dot(Color.rgb, _lum) * Colorize.rgb, Colorize.a);
+	//gl_FragColor = vec4(Colorized + ColorOffset * Color.a, Color.a);
 	
 	// No colorization support, instead use colorize parameter for noise control
 	if(Color.r == Color.g && Color.b > Color.r)
 	{
 		// Blue: Replace with simplex noise
-		//float a = mix((snoise(TextureSizeOut * 0.5 * uv_aligned + vec2(ColorizeOut.a*1000.0, 0.0))+0.5)*Color.b, Color.b, Color.r/Color.b);
+		//float a = mix((snoise(TextureSize * 0.5 * uv_aligned + vec2(Colorize.a*1000.0, 0.0))+0.5)*Color.b, Color.b, Color.r/Color.b);
 		
-		vec2 NoiseUV = gl_FragCoord.xy + vec2(ColorizeOut.a*10000.0, ColorizeOut.a*10000.0);
-		NoiseUV -= mod(NoiseUV, vec2(2.0+2.0*PixelationAmountOut,2.0+2.0*PixelationAmountOut));
+		vec2 NoiseUV = gl_FragCoord.xy + vec2(Colorize.a*10000.0, Colorize.a*10000.0);
+		NoiseUV -= mod(NoiseUV, vec2(2.0+2.0*PixelationAmount,2.0+2.0*PixelationAmount));
 		float a = mix((snoise(NoiseUV)+0.5)*Color.b, Color.b, Color.r/Color.b);
 		Color.r = Color.g = Color.b = a;
 	}
 	else if(Color.r == Color.b && Color.g > Color.r)
 	{
 		// Green: Flicker a solid color
-		//float a = mix((snoise(vec2(ColorizeOut.a*1000.0, 0.0))+1.0)*0.5*Color.g, Color.g, Color.r/Color.g);
-		float a = mix(step(0.0,snoise(vec2(ColorizeOut.a*1000.0, 0.0)))*Color.g, Color.g, Color.r/Color.g);
+		//float a = mix((snoise(vec2(Colorize.a*1000.0, 0.0))+1.0)*0.5*Color.g, Color.g, Color.r/Color.g);
+		float a = mix(step(0.0,snoise(vec2(Colorize.a*1000.0, 0.0)))*Color.g, Color.g, Color.r/Color.g);
 		Color.r = Color.g = Color.b = a;
 	}
 	
 	Color *= Color0;
-	gl_FragColor = vec4(Color.rgb + ColorOffsetOut * Color.a, Color.a);
-	gl_FragColor.rgb = mix(gl_FragColor.rgb, gl_FragColor.rgb - mod(gl_FragColor.rgb, 1.0/16.0) + 1.0/32.0, clamp(PixelationAmountOut, 0.0, 1.0));
+	gl_FragColor = vec4(Color.rgb + ColorOffset * Color.a, Color.a);
+	gl_FragColor.rgb = mix(gl_FragColor.rgb, gl_FragColor.rgb - mod(gl_FragColor.rgb, 1.0/16.0) + 1.0/32.0, clamp(PixelationAmount, 0.0, 1.0));
 }

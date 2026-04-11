@@ -1,11 +1,13 @@
 varying vec2 TexCoord0;
-varying float TimeOut;
-varying vec4 OutScreenSize;
+
 uniform sampler2D Texture0;
+
+uniform float Time;
+uniform vec4 ScreenSize;
 
 void main(void)
 {
-	vec2 screenRatio = OutScreenSize.zw / OutScreenSize.xy;
+	vec2 screenRatio = ScreenSize.zw / ScreenSize.xy;
 	vec2 screenUV = TexCoord0 * screenRatio;
 
 	/*Distortion*/
@@ -24,7 +26,7 @@ void main(void)
 	color.b = texture2D(Texture0, finalUV - vec2(0.002, 0.0)).b;
 	color.rgb = mix(color.rgb, vec3((color.r + color.g + color.b) * 0.333), vec3(0.8, 0.0, 0.5));
 	color.g *= 1.2;
-	float scanline = abs(sin(finalUV.y * 700.0 - TimeOut)) * 0.2;
+	float scanline = abs(sin(finalUV.y * 700.0 - Time)) * 0.2;
 	float highlight = (1.0 - clamp(length(finalUV) * 3.5, 0.0, 1.0)) * (1.0 - clamp(length((finalUV - vec2(0.15, 0.15)) * 8.0), 0.0, 1.0));
 	gl_FragColor = (color + vec4(vec3(scanline + highlight), 1.0)) * vignete;
 }

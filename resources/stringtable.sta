@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <stringtable>
-    <info version="1.0" modified="Wed Aug 13 15:19:00 2025" modifiedby="Jerm"/>
+    <info version="1.0" modified="Fri Dec 12 23:36:30 2025" modifiedby="Jerm"/>
     <languages>
         <language id="21" index="0" name="Key"/>
         <language id="0" index="1" name="English"/>
@@ -525,13 +525,13 @@
         </key>
         <key name="TRANSFORMATION_NECROMANCER">
             <string>Necromancer!</string>
-            <string> </string>
-            <string> </string>
-            <string> </string>
-            <string> </string>
-            <string> </string>
-            <string> </string>
-            <string> </string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
         </key>
         <key name="MINIMAP_TIME_LABEL">
             <string>Time:</string>
@@ -30197,6 +30197,16 @@
             <string></string>
             <string></string>
         </key>
+        <key name="ROOM_BOSS_SPECIFIC">
+            <string>Fighting %s in %s</string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+        </key>
         <key name="ROOM_MINIBOSS">
             <string>Fighting miniboss in %s</string>
             <string></string>
@@ -30437,8 +30447,148 @@
             <string></string>
             <string></string>
         </key>
+        <key name="GREED_MODE_NORMAL">
+            <string>Exploring %s</string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+        </key>
+        <key name="GREED_MODE_FIGHTING">
+            <string>Fighting wave %d/%d in %s</string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+        </key>
+        <key name="GREED_MODE_BOSS">
+            <string>Fighting boss in %s</string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+        </key>
+        <key name="GREED_MODE_DEVIL">
+            <string>Fighting devil wave in %s</string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+        </key>
+        <key name="GREED_MODE_ULTRA_GREED">
+            <string>Fighting Ultra Greed!</string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+        </key>
+        <key name="WON_RUN">
+            <string>Won the run!</string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+        </key>
+        <key name="ROOM_DOGMA">
+            <string>Fighting Dogma!</string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+        </key>
+        <key name="ROOM_BEAST">
+            <string>Fighting The Beast!</string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+        </key>
+        <key name="ROOM_RED">
+            <string>On the other side in %s</string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+        </key>
+        <key name="ROOM_DEATH_CERTIFICATE">
+            <string>We used to live here...</string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+        </key>
+        <key name="ROOM_LIL_PORTAL">
+            <string>Saving things for later</string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+        </key>
+        <key name="ROOM_MEMBER_SHOP">
+            <string>Browsing a special selection</string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+        </key>
+        <key name="ROOM_GENESIS">
+            <string>Doing things over</string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+        </key>
     </category>
     <category name="Online">
+        <key name="CONNECTING_TO_SERVER">
+            <string>Connecting to server</string>
+            <string> </string>
+            <string> </string>
+            <string> </string>
+            <string> </string>
+            <string> </string>
+            <string> </string>
+            <string> </string>
+        </key>
         <key name="GAME_STARTING_COUNTDOWN">
             <string>Game Starting In... %d</string>
             <string></string>
@@ -31341,6 +31491,56 @@
         </key>
         <key name="ONLINE_USER_BANNED">
             <string>Cannot join lobby. You have been banned by the host.</string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+        </key>
+        <key name="WAITING_TO_START">
+            <string>Waiting For Game To Start</string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+        </key>
+        <key name="READY_UP_MINIGAME">
+            <string>Ready Up To Play!</string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+        </key>
+        <key name="PRESS_A_MINIGAME">
+            <string>Press     To Play!</string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+        </key>
+        <key name="RUN_STARTING">
+            <string>Starting Run...</string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+        </key>
+        <key name="RUN_STARTING_DAILY">
+            <string>Starting Daily Run...</string>
             <string></string>
             <string></string>
             <string></string>

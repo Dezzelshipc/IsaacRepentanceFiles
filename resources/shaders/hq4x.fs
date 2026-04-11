@@ -1,11 +1,13 @@
 varying vec2 TexCoord0;
-varying vec3 ScreenSizePow2Out;
+
 uniform sampler2D Texture0;
+
+uniform vec3 ScreenSizePow2;
 
 void main(void)
 {
 	vec2 uv = TexCoord0;
-	uv -= mod(TexCoord0, vec2(1.0, 1.0) / ScreenSizePow2Out.xy);
+	uv -= mod(TexCoord0, vec2(1.0, 1.0) / ScreenSizePow2.xy);
 
 	float mx = 1.0;
 	const float k = -1.10;
@@ -16,8 +18,8 @@ void main(void)
 	vec4 color = texture2D(Texture0, uv);
 	vec3 c = color.xyz;
 
-	float x = ScreenSizePow2Out.z / ScreenSizePow2Out.x;
-	float y = ScreenSizePow2Out.z / ScreenSizePow2Out.y;
+	float x = ScreenSizePow2.z / ScreenSizePow2.x;
+	float y = ScreenSizePow2.z / ScreenSizePow2.y;
 
 	const vec3 dt = vec3(1.0, 1.0, 1.0);
 

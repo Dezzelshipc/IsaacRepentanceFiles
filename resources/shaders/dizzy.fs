@@ -3,12 +3,13 @@
 #endif
 
 varying vec2 TexCoord0;
-varying vec2 TextureSize0;
-varying vec4 Ratio0;
-varying lowp float Time0;
-varying lowp float Amount0;
 
 uniform sampler2D Texture0;
+
+uniform vec2 TextureSize;
+uniform vec4 Ratio;
+uniform lowp float Time;
+uniform lowp float Amount;
 
 vec2 mirrorclamp(vec2 uv, vec2 m)
 {
@@ -17,20 +18,20 @@ vec2 mirrorclamp(vec2 uv, vec2 m)
 
 void main(void)
 {
-	float time = Time0 * 6.28318530718;
-	float amount = Amount0;
+	float time = Time * 6.28318530718;
+	float amount = Amount;
 	float am2 = pow(amount, 0.5);
 	
 	float rot = amount * 0.3 * cos(0.8 * time);
 	mat2 rmat = mat2(cos(rot), -sin(rot), sin(rot), cos(rot));
 	
-	vec2 center = 0.5 * TextureSize0.xy;
+	vec2 center = 0.5 * TextureSize.xy;
 	vec2 texcoord = rmat * (TexCoord0 - center) + center;
 	
-	vec2 amp = amount * vec2(0.016, 0.016) / Ratio0.xy;
+	vec2 amp = amount * vec2(0.016, 0.016) / Ratio.xy;
 	vec2 freq = vec2(8.0, 12.0);
 	float speed = 1.0;
-	vec2 uv = mirrorclamp(texcoord + amp * sin(freq * 3.141593 * Ratio0.xy * (TexCoord0.yx - Ratio0.wz) + speed*time), TextureSize0.xy);
+	vec2 uv = mirrorclamp(texcoord + amp * sin(freq * 3.141593 * Ratio.xy * (TexCoord0.yx - Ratio.wz) + speed*time), TextureSize.xy);
 	
 	float mul = 1.0 + am2 * 0.6;
 	float saturate = min(amount, 1.0) * 0.7;
