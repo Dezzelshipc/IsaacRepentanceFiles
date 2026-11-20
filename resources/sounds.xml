@@ -3547,5 +3547,124 @@
 	<sound id="1090">
 		<sample weight="1" path="unborn_warp.wav" />
 	</sound>
+	
+	<sound id="1091">
+		<sample weight="1" path="promo/crime/crime_police_siren.wav" />
+	</sound>
+	<sound id="1092">
+		<sample weight="1" path="promo/crime/crime_weapon_switch.wav" />
+	</sound>
+	<sound id="1093">
+		<sample weight="1" path="promo/crime/crime_pickup_pistol.wav" />
+	</sound>
+	<sound id="1094">
+		<sample weight="1" path="promo/crime/crime_pistol_shot_01.wav" />
+		<sample weight="1" path="promo/crime/crime_pistol_shot_02.wav" />
+		<sample weight="1" path="promo/crime/crime_pistol_shot_03.wav" />
+	</sound>
+	<sound id="1095">
+		<sample weight="1" path="promo/crime/crime_pickup_smg.wav" />
+	</sound>
+	<sound id="1096">
+		<sample weight="1" path="promo/crime/crime_smg_shot_01.wav" />
+		<sample weight="1" path="promo/crime/crime_smg_shot_02.wav" />
+		<sample weight="1" path="promo/crime/crime_smg_shot_03.wav" />
+	</sound>
+	<sound id="1097">
+		<sample weight="1" path="promo/crime/crime_pickup_shotgun.wav" />
+	</sound>
+	<sound id="1098">
+		<sample weight="1" path="promo/crime/crime_shotgun_shot_01.wav" />
+		<sample weight="1" path="promo/crime/crime_shotgun_shot_02.wav" />
+		<sample weight="1" path="promo/crime/crime_shotgun_shot_03.wav" />
+	</sound>
+	<sound id="1099">
+		<sample weight="1" path="promo/crime/crime_pickup_glauncher.wav" />
+	</sound>
+	<sound id="1100">
+		<sample weight="1" path="promo/crime/crime_glauncher_shot_01.wav" />
+		<sample weight="1" path="promo/crime/crime_glauncher_shot_02.wav" />
+		<sample weight="1" path="promo/crime/crime_glauncher_shot_03.wav" />
+	</sound>
+	<sound id="1101">
+		<sample weight="1" path="promo/crime/crime_ammo_spawn.wav" />
+	</sound>
+	<sound id="1102">
+		<sample weight="1" path="promo/crime/crime_pickup_ammo.wav" />
+	</sound>
+	<sound id="1103">
+		<sample weight="1" path="promo/crime/crime_stealing.wav" />
+	</sound>
+	<sound id="1104">
+		<sample weight="1" path="promo/crime/minecar_impact_heavy_01.wav" />
+		<sample weight="1" path="promo/crime/minecar_impact_heavy_02.wav" />
+		<sample weight="1" path="promo/crime/minecar_impact_heavy_03.wav" />
+		<sample weight="1" path="promo/crime/minecar_impact_heavy_04.wav" />
+	</sound>
+	<sound id="1105">
+		<sample weight="1" path="promo/crime/minecar_1000.wav" />
+	</sound>
+	<sound id="1106">
+		<sample weight="1" path="promo/crime/minecar_2000.wav" />
+	</sound>
+	<sound id="1107">
+		<sample weight="1" path="promo/crime/minecar_3000.wav" />
+	</sound>
+	<sound id="1108">
+		<sample weight="1" path="promo/crime/minecar_4000.wav" />
+	</sound>
+	<sound id="1109">
+		<sample weight="1" path="promo/crime/minecar_5000.wav" />
+	</sound>
+	<sound id="1110">
+		<sample weight="1" path="promo/crime/minecar_6000.wav" />
+	</sound>
+	<sound id="1111">
+		<sample weight="1" path="promo/crime/crime_gun_empty.wav" />
+	</sound>
+    <sound id="1112">
+        <sample weight="1" path="promo/crime/crime_explo_a_01.wav" />
+        <sample weight="1" path="promo/crime/crime_explo_a_02.wav" />
+        <sample weight="1" path="promo/crime/crime_explo_a_03.wav" />
+        <sample weight="1" path="promo/crime/crime_explo_a_04.wav" />
+        <sample weight="1" path="promo/crime/crime_explo_a_05.wav" />
+    </sound>
+    <sound id="1113">
+        <sample weight="1" path="promo/crime/crime_explo_b_01.wav" />
+        <sample weight="1" path="promo/crime/crime_explo_b_02.wav" />
+        <sample weight="1" path="promo/crime/crime_explo_b_03.wav" />
+        <sample weight="1" path="promo/crime/crime_explo_b_04.wav" />
+    </sound>
+    <sound id="1114">
+        <sample weight="1" path="promo/crime/crime_explo_c_01.wav" />
+        <sample weight="1" path="promo/crime/crime_explo_c_02.wav" />
+        <sample weight="1" path="promo/crime/crime_explo_c_03.wav" />
+        <sample weight="1" path="promo/crime/crime_explo_c_04.wav" />
+    </sound>
+    <sound id="1115">
+        <sample weight="1" path="promo/crime/crime_explo_d_01.wav" />
+        <sample weight="1" path="promo/crime/crime_explo_d_02.wav" />
+        <sample weight="1" path="promo/crime/crime_explo_d_03.wav" />
+    </sound>
+    <sound id="1116">
+        <sample weight="1" path="promo/crime/crime_explo_bombrocks_01.wav" />
+        <sample weight="1" path="promo/crime/crime_explo_bombrocks_02.wav" />
+        <sample weight="1" path="promo/crime/crime_explo_bombrocks_03.wav" />
+        <sample weight="1" path="promo/crime/crime_explo_bombrocks_04.wav" />
+        <sample weight="1" path="promo/crime/crime_explo_bombrocks_05.wav" />
+    </sound>
+    <sound id="1117">
+        <sample weight="1" path="promo/crime/crime_explo_enemies_01.wav" />
+        <sample weight="1" path="promo/crime/crime_explo_enemies_02.wav" />
+        <sample weight="1" path="promo/crime/crime_explo_enemies_03.wav" />
+        <sample weight="1" path="promo/crime/crime_explo_enemies_04.wav" />
+        <sample weight="1" path="promo/crime/crime_explo_enemies_05.wav" />
+    </sound>
+    <sound id="1118">
+        <sample weight="1" path="promo/crime/crime_explo_items_01.wav" />
+        <sample weight="1" path="promo/crime/crime_explo_items_02.wav" />
+        <sample weight="1" path="promo/crime/crime_explo_items_03.wav" />
+        <sample weight="1" path="promo/crime/crime_explo_items_04.wav" />
+    </sound>
 <!-- REPENTANCE+ END -->
 </sounds>

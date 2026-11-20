@@ -125,6 +125,21 @@
 		<layer path="Repentance/backwards/Genesis ii Reverse Mines Layer (Drumz).ogg" mul="1.2" />
 		<layer path="Repentance/backwards/Genesis ii Reverse Mausoleum Layer (Bass).ogg" mul="1.2" />
 	</track>
-	<track id="119" name="Deathmatch" path="Repentance/Deathmatch.ogg" loop="true" />
 <!-- REPENTANCE END -->
+
+<!-- REPENTANCE+ BEGIN -->
+	<track id="119" name="Deathmatch" path="Repentance/Deathmatch.ogg" loop="true" />
+	<track id="120" name="Driving Music 1" path="Repentance/promo/crime/DrivingSong1.ogg" loop="true" />
+	<track id="121" name="Driving Music 2" path="Repentance/promo/crime/DrivingSong2.ogg" loop="true" />
+	<track id="122" name="Stealing Music" path="Repentance/promo/crime/StealingSong.ogg" loop="true" />
+	<track id="123" name="Stealing Music Outro" path="Repentance/promo/crime/StealingSongOutro.ogg" loop="false" />
+    <track id="124" name="DeadEnd" path="Repentance/promo/crime/DeadEnd.ogg" loop="true" mul="1" />
+    <track id="125" name="NoWitnesses" intro="Repentance/promo/crime/NoWitnessesIntro.ogg" path="Repentance/promo/crime/NoWitnesses.ogg" loop="true" mul="1" />
+    <track id="126" name="TheftSalvation" intro="Repentance/promo/crime/TheftSalvationIntro.ogg" path="Repentance/promo/crime/TheftSalvation.ogg" loop="true" mul="1" />
+    <track id="127" name="WantedDead" path="Repentance/promo/crime/WantedDead.ogg" loop="true" mul="1" />
+    <track id="128" name="DeadEndOutro" path="Repentance/promo/crime/DeadEndOutro.ogg" mul="1" />
+    <track id="129" name="NoWitnessesOutro" path="Repentance/promo/crime/NoWitnessesOutro.ogg" mul="1" />
+    <track id="130" name="TheftSalvationOutro" path="Repentance/promo/crime/TheftSalvationOutro.ogg" mul="1" />
+    <track id="131" name="WantedDeadOutro" path="Repentance/promo/crime/WantedDeadOutro.ogg" mul="1" />
+<!-- REPENTANCE+ END -->
 </music>

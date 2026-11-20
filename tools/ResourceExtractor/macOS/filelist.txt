@@ -10127,6 +10127,7 @@ resources/gfx/characters/costumes/costume_rebirth_69_lordoftheflieshead.png
 resources/gfx/characters/costumes/costume_rebirth_90_thejar.png
 resources/gfx/characters/costumes/costume_soul_2.png
 resources/gfx/characters/costumes/costume_tick.png
+resources/gfx/characters/costumes/crime_suit.png
 resources/gfx/characters/costumes/emptyvessel body.png
 resources/gfx/characters/costumes/emptyvessel head.png
 resources/gfx/characters/costumes/fetus_tears.png
@@ -11292,6 +11293,7 @@ resources/gfx/characters/costumes_shadow/transformation_mushroom_head.png
 resources/gfx/characters/costumes_shadow/transformation_poop_head.png
 resources/gfx/characters/costumes_shadow/transformation_spider.png
 resources/gfx/characters/costumes_shadow/x_overdose.png
+resources/gfx/characters/crime_suit.anm2
 resources/gfx/characters/fix_head_pivot.py
 resources/gfx/characters/fix_layer_ids.py
 resources/gfx/characters/fix_png_paths.py
@@ -15138,6 +15140,76 @@ resources/gfx/overlays/womb/2x2_overlay_2.png
 resources/gfx/overlays/womb/2x2_overlay_3.png
 resources/gfx/overlays/womb/2x2_overlay_4.png
 resources/gfx/overlays/womb/2x2_overlay_5.png
+resources/gfx/promo/crime/bullet tear.anm2
+resources/gfx/promo/crime/bullet tear.png
+resources/gfx/promo/crime/cars/car_normal.anm2
+resources/gfx/promo/crime/cars/car_normal_front.anm2
+resources/gfx/promo/crime/cars/minecart.png
+resources/gfx/promo/crime/grenade tear.anm2
+resources/gfx/promo/crime/guns/grenadelauncher_floor.png
+resources/gfx/promo/crime/guns/grenadelauncher_held.anm2
+resources/gfx/promo/crime/guns/grenadelauncher_held.png
+resources/gfx/promo/crime/guns/grenadelauncher_pickup.png
+resources/gfx/promo/crime/guns/muzzle_flash.anm2
+resources/gfx/promo/crime/guns/muzzle_flash.png
+resources/gfx/promo/crime/guns/muzzle_flash_launcher.anm2
+resources/gfx/promo/crime/guns/muzzle_flash_launcher.png
+resources/gfx/promo/crime/guns/muzzle_flash_shotgun.anm2
+resources/gfx/promo/crime/guns/muzzle_flash_shotgun.png
+resources/gfx/promo/crime/guns/muzzle_flash_small.anm2
+resources/gfx/promo/crime/guns/muzzle_flash_small.png
+resources/gfx/promo/crime/guns/muzzle_flash_smg.anm2
+resources/gfx/promo/crime/guns/muzzle_flash_smg.png
+resources/gfx/promo/crime/guns/pistol_altar.png
+resources/gfx/promo/crime/guns/pistol_floor.png
+resources/gfx/promo/crime/guns/pistol_held.anm2
+resources/gfx/promo/crime/guns/pistol_held.png
+resources/gfx/promo/crime/guns/pistol_pickup.png
+resources/gfx/promo/crime/guns/shotgun_floor.png
+resources/gfx/promo/crime/guns/shotgun_held.anm2
+resources/gfx/promo/crime/guns/shotgun_held.png
+resources/gfx/promo/crime/guns/shotgun_pickup.png
+resources/gfx/promo/crime/guns/smg_floor.png
+resources/gfx/promo/crime/guns/smg_held.anm2
+resources/gfx/promo/crime/guns/smg_held.png
+resources/gfx/promo/crime/guns/smg_pickup.png
+resources/gfx/promo/crime/items/pick ups/grenadelauncher_ammo.anm2
+resources/gfx/promo/crime/items/pick ups/gun_ammo.png
+resources/gfx/promo/crime/items/pick ups/pistol_ammo.anm2
+resources/gfx/promo/crime/items/pick ups/shotgun_ammo.anm2
+resources/gfx/promo/crime/items/pick ups/smg_ammo.anm2
+resources/gfx/promo/crime/police_sprites/010.000_frowning gaper.anm2
+resources/gfx/promo/crime/police_sprites/012.000_horf.anm2
+resources/gfx/promo/crime/police_sprites/020.000_monstro.anm2
+resources/gfx/promo/crime/police_sprites/039.000_vis.anm2
+resources/gfx/promo/crime/police_sprites/043.000_monstro ii.anm2
+resources/gfx/promo/crime/police_sprites/056.000_lump.anm2
+resources/gfx/promo/crime/police_sprites/063.000_famine.anm2
+resources/gfx/promo/crime/police_sprites/066.000_death.anm2
+resources/gfx/promo/crime/police_sprites/086.000_keeper.anm2
+resources/gfx/promo/crime/police_sprites/089.000_buttlicker.anm2
+resources/gfx/promo/crime/police_sprites/204.000_mobile host.anm2
+resources/gfx/promo/crime/police_sprites/207.000_fatty.anm2
+resources/gfx/promo/crime/police_sprites/207.001_pale fatty.anm2
+resources/gfx/promo/crime/police_sprites/208.000_fatsack.anm2
+resources/gfx/promo/crime/police_sprites/219.000_wizoob.anm2
+resources/gfx/promo/crime/police_sprites/227.000_boney.anm2
+resources/gfx/promo/crime/police_sprites/244.000_round worm.anm2
+resources/gfx/promo/crime/police_sprites/284.000_cyclopia.anm2
+resources/gfx/promo/crime/police_sprites/404.000_littlehorn.anm2
+resources/gfx/promo/crime/police_sprites/405.000_ragman.anm2
+resources/gfx/promo/crime/police_sprites/police_hat.png
+resources/gfx/promo/crime/police_sprites/police_hat_boss.png
+resources/gfx/promo/crime/spotlight.anm2
+resources/gfx/promo/crime/ui/ammo_icons.anm2
+resources/gfx/promo/crime/ui/ammo_icons.png
+resources/gfx/promo/crime/ui/ammo_icons_mini.anm2
+resources/gfx/promo/crime/ui/ammo_icons_mini.png
+resources/gfx/promo/crime/ui/microfont.anm2
+resources/gfx/promo/crime/ui/microfont.png
+resources/gfx/promo/crime/ui/title_logo.png
+resources/gfx/promo/crime/ui/wanted_star.anm2
+resources/gfx/promo/crime/ui/wanted_star.png
 resources/gfx/promo/gfuel/102.001_g baby (true final boss).anm2
 resources/gfx/promo/gfuel/bosses/g fuel bluebaby.png
 resources/gfx/promo/gfuel/bullet tear.anm2
@@ -16592,6 +16664,9 @@ resources/gfx/ui/main menu/savedrawings/mother.png
 resources/gfx/ui/main menu/saveselectmenu.anm2
 resources/gfx/ui/main menu/saveselectmenu.png
 resources/gfx/ui/main menu/saveselectmenu_drawing.anm2
+resources/gfx/ui/main menu/saveselectmenu_sync.anm2
+resources/gfx/ui/main menu/saveselectmenu_syncpopup.anm2
+resources/gfx/ui/main menu/saveselectmenu_syncpopup.png
 resources/gfx/ui/main menu/scoremenu.png
 resources/gfx/ui/main menu/secretsmenucomponents.anm2
 resources/gfx/ui/main menu/secretsmenucomponents.png
@@ -16977,6 +17052,20 @@ resources/music/repentance/moms_shadow_cut_scene.ogg
 resources/music/repentance/mother_boss_v6.ogg
 resources/music/repentance/nightmare_v4.ogg
 resources/music/repentance/planetarium.ogg
+resources/music/repentance/promo/crime/deadend.ogg
+resources/music/repentance/promo/crime/deadendoutro.ogg
+resources/music/repentance/promo/crime/drivingsong1.ogg
+resources/music/repentance/promo/crime/drivingsong2.ogg
+resources/music/repentance/promo/crime/nowitnesses.ogg
+resources/music/repentance/promo/crime/nowitnessesintro.ogg
+resources/music/repentance/promo/crime/nowitnessesoutro.ogg
+resources/music/repentance/promo/crime/stealingsong.ogg
+resources/music/repentance/promo/crime/stealingsongoutro.ogg
+resources/music/repentance/promo/crime/theftsalvation.ogg
+resources/music/repentance/promo/crime/theftsalvationintro.ogg
+resources/music/repentance/promo/crime/theftsalvationoutro.ogg
+resources/music/repentance/promo/crime/wanteddead.ogg
+resources/music/repentance/promo/crime/wanteddeadoutro.ogg
 resources/music/repentance/sewer heavy.ogg
 resources/music/repentance/sewer.ogg
 resources/music/repentance/static boss light v2 jingle.ogg
@@ -18176,6 +18265,68 @@ resources/sfx/pot breaking sound 3.wav
 resources/sfx/pot breaking sound.wav
 resources/sfx/power up spewer amplified.wav
 resources/sfx/pride_zap.wav
+resources/sfx/promo/crime/crime_ammo_spawn.wav
+resources/sfx/promo/crime/crime_explo_a_01.wav
+resources/sfx/promo/crime/crime_explo_a_02.wav
+resources/sfx/promo/crime/crime_explo_a_03.wav
+resources/sfx/promo/crime/crime_explo_a_04.wav
+resources/sfx/promo/crime/crime_explo_a_05.wav
+resources/sfx/promo/crime/crime_explo_b_01.wav
+resources/sfx/promo/crime/crime_explo_b_02.wav
+resources/sfx/promo/crime/crime_explo_b_03.wav
+resources/sfx/promo/crime/crime_explo_b_04.wav
+resources/sfx/promo/crime/crime_explo_bombrocks_01.wav
+resources/sfx/promo/crime/crime_explo_bombrocks_02.wav
+resources/sfx/promo/crime/crime_explo_bombrocks_03.wav
+resources/sfx/promo/crime/crime_explo_bombrocks_04.wav
+resources/sfx/promo/crime/crime_explo_bombrocks_05.wav
+resources/sfx/promo/crime/crime_explo_c_01.wav
+resources/sfx/promo/crime/crime_explo_c_02.wav
+resources/sfx/promo/crime/crime_explo_c_03.wav
+resources/sfx/promo/crime/crime_explo_c_04.wav
+resources/sfx/promo/crime/crime_explo_d_01.wav
+resources/sfx/promo/crime/crime_explo_d_02.wav
+resources/sfx/promo/crime/crime_explo_d_03.wav
+resources/sfx/promo/crime/crime_explo_enemies_01.wav
+resources/sfx/promo/crime/crime_explo_enemies_02.wav
+resources/sfx/promo/crime/crime_explo_enemies_03.wav
+resources/sfx/promo/crime/crime_explo_enemies_04.wav
+resources/sfx/promo/crime/crime_explo_enemies_05.wav
+resources/sfx/promo/crime/crime_explo_items_01.wav
+resources/sfx/promo/crime/crime_explo_items_02.wav
+resources/sfx/promo/crime/crime_explo_items_03.wav
+resources/sfx/promo/crime/crime_explo_items_04.wav
+resources/sfx/promo/crime/crime_glauncher_shot_01.wav
+resources/sfx/promo/crime/crime_glauncher_shot_02.wav
+resources/sfx/promo/crime/crime_glauncher_shot_03.wav
+resources/sfx/promo/crime/crime_gun_empty.wav
+resources/sfx/promo/crime/crime_pickup_ammo.wav
+resources/sfx/promo/crime/crime_pickup_glauncher.wav
+resources/sfx/promo/crime/crime_pickup_pistol.wav
+resources/sfx/promo/crime/crime_pickup_shotgun.wav
+resources/sfx/promo/crime/crime_pickup_smg.wav
+resources/sfx/promo/crime/crime_pistol_shot_01.wav
+resources/sfx/promo/crime/crime_pistol_shot_02.wav
+resources/sfx/promo/crime/crime_pistol_shot_03.wav
+resources/sfx/promo/crime/crime_police_siren.wav
+resources/sfx/promo/crime/crime_shotgun_shot_01.wav
+resources/sfx/promo/crime/crime_shotgun_shot_02.wav
+resources/sfx/promo/crime/crime_shotgun_shot_03.wav
+resources/sfx/promo/crime/crime_smg_shot_01.wav
+resources/sfx/promo/crime/crime_smg_shot_02.wav
+resources/sfx/promo/crime/crime_smg_shot_03.wav
+resources/sfx/promo/crime/crime_stealing.wav
+resources/sfx/promo/crime/crime_weapon_switch.wav
+resources/sfx/promo/crime/minecar_1000.wav
+resources/sfx/promo/crime/minecar_2000.wav
+resources/sfx/promo/crime/minecar_3000.wav
+resources/sfx/promo/crime/minecar_4000.wav
+resources/sfx/promo/crime/minecar_5000.wav
+resources/sfx/promo/crime/minecar_6000.wav
+resources/sfx/promo/crime/minecar_impact_heavy_01.wav
+resources/sfx/promo/crime/minecar_impact_heavy_02.wav
+resources/sfx/promo/crime/minecar_impact_heavy_03.wav
+resources/sfx/promo/crime/minecar_impact_heavy_04.wav
 resources/sfx/promo/gfuel/air_horn.wav
 resources/sfx/promo/gfuel/explosion1.wav
 resources/sfx/promo/gfuel/explosion2.wav

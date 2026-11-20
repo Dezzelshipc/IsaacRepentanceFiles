@@ -121,6 +121,8 @@
 	
 	<costume id="132" anm2path="n_lost_body.anm2" priority="101" type="none" isFlying="true"/>
 	
+	<costume id="133" anm2path="crime_suit.anm2" type="none" priority="100"/>
+
 <!-- REPENTANCE END -->
 	
 	<costume anm2path="001_The Sad Onion.anm2" id="1"  type="passive">

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <stringtable>
-    <info version="1.0" modified="Fri Dec 12 23:36:30 2025" modifiedby="Jerm"/>
+    <info version="1.0" modified="Tue Nov 17 15:58:59 2026" modifiedby="Jerm"/>
     <languages>
         <language id="21" index="0" name="Key"/>
         <language id="0" index="1" name="English"/>
@@ -1365,6 +1365,16 @@
         </key>
         <key name="ITEM_INFO_UNIDENTIFIED_Card">
             <string>Card</string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+        </key>
+        <key name="WASTED">
+            <string>WASTED</string>
             <string></string>
             <string></string>
             <string></string>
@@ -28457,6 +28467,16 @@
             <string>¡G Fuel!</string>
             <string>G Fuel !</string>
         </key>
+        <key name="SEED_80">
+            <string>Crime Mode</string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+        </key>
     </category>
     <category name="Stages">
         <key name="SPECIAL_ROOMS_NAME">
@@ -30581,13 +30601,13 @@
     <category name="Online">
         <key name="CONNECTING_TO_SERVER">
             <string>Connecting to server</string>
-            <string> </string>
-            <string> </string>
-            <string> </string>
-            <string> </string>
-            <string> </string>
-            <string> </string>
-            <string> </string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
         </key>
         <key name="GAME_STARTING_COUNTDOWN">
             <string>Game Starting In... %d</string>
@@ -31470,7 +31490,7 @@
             <string></string>
         </key>
         <key name="NO_CONNECTION_TO_HOST">
-            <string>You have lost connection to the game host.  Please check your security/firewall settings and try again.</string>
+            <string>Could not establish a connection to the game session</string>
             <string></string>
             <string></string>
             <string></string>
@@ -31481,6 +31501,16 @@
         </key>
         <key name="ONLINE_CHALLENGE_BLOCKED">
             <string>Cannot join lobby. You do not have the selected challenge unlocked.</string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+        </key>
+        <key name="ONLINE_CONTENT_BLOCKED">
+            <string>Cannot join lobby. You do not have the required content unlocked</string>
             <string></string>
             <string></string>
             <string></string>
@@ -31541,6 +31571,330 @@
         </key>
         <key name="RUN_STARTING_DAILY">
             <string>Starting Daily Run...</string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+        </key>
+        <key name="LOST_CONNECTION_TO_EOS">
+            <string>Lost connection to Epic Online Services</string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+        </key>
+        <key name="CROSS_PLAY_POPUP_HEADER">
+            <string>Would you like to enable cross play between other platforms?</string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+        </key>
+        <key name="CROSS_PLAY_POPUP_MESSAGE">
+            <string>This settings can be toggled in the online options menu</string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+        </key>
+        <key name="LINK_EPIC_POPUP_HEADER">
+            <string>Link Epic Games account?</string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+        </key>
+        <key name="LINK_EPIC_POPUP_MESSAGE">
+            <string>Linking your account will allow you to invite your Epic friends</string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+        </key>
+    </category>
+    <category name="Descriptions">
+        <key name="DESC_SPINDOWN_RESULT">
+            <string>Spins down into </string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+        </key>
+        <key name="DESC_FLIP_RESULT">
+            <string>Flips to </string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+        </key>
+    </category>
+    <category name="SteamCloud">
+        <key name="STEAM_CLOUD_CONNECTING">
+            <string>Connecting to Steam Cloud</string>
+            <string>Steam Cloud に接続しています</string>
+            <string>스팀 클라우드에 접속 중</string>
+            <string>连接到 Steam Cloud</string>
+            <string>Подключение к Steam Cloud</string>
+            <string>Verbinde zur Steam-Cloud</string>
+            <string>Conectando con Steam Cloud</string>
+            <string>Connexion en cours...</string>
+        </key>
+        <key name="STEAM_CLOUD_UPLOADING">
+            <string>Uploading save to Steam Cloud</string>
+            <string>Steam Cloud にセーブデータをアップロードしています</string>
+            <string>스팀 클라우드에 저장 데이터 업로드 중</string>
+            <string>将存档上传到 Steam Cloud</string>
+            <string>Загрузка сохранений в Steam Cloud</string>
+            <string>Lade Spielstand in die Steam-Cloud hoch</string>
+            <string>Subiendo la partida guardada a Steam Cloud</string>
+            <string>Export de la sauvegarde vers Steam Cloud en cours...</string>
+        </key>
+        <key name="STEAM_CLOUD_DOWNLOADING">
+            <string>Downloading save from Steam Cloud</string>
+            <string>Steam Cloud からセーブデータをダウンロードしています</string>
+            <string>스팀 클라우드에서 저장 데이터 다운로드 중</string>
+            <string>从 Steam Cloud下载存档</string>
+            <string>Загрузка сохранений из Steam Cloud</string>
+            <string>Lade Spielstand aus der Steam-Cloud herunter</string>
+            <string>Descargando la partida guardada desde Steam Cloud</string>
+            <string>Import de la sauvegarde depuis Steam Cloud en cours...</string>
+        </key>
+        <key name="RESULT_DownloadSuccess">
+            <string>Successfully downloaded save data from Steam Cloud</string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+        </key>
+        <key name="RESULT_UploadSuccess">
+            <string>Successfully uploaded save data to Steam Cloud</string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+        </key>
+        <key name="RESULT_Error_NoNetwork">
+            <string>No internet connection</string>
+            <string>インターネットに接続できません</string>
+            <string>인터넷에 연결되어 있지 않습니다</string>
+            <string>无网络连接</string>
+            <string>Нет подключения к интернету</string>
+            <string>Keine Internetverbindung</string>
+            <string>Sin conexión a Internet</string>
+            <string>Connexion internet indisponible</string>
+        </key>
+        <key name="RESULT_Error_NotSignedIn">
+            <string>Cannot connect to Steam Cloud</string>
+            <string>Steam Cloudに接続できません</string>
+            <string>스팀 클라우드에 접속할 수 없습니다</string>
+            <string>无法连接到 Steam Cloud</string>
+            <string>Не удаётся подключиться к Steam Cloud</string>
+            <string>Kann nicht mit der Steam-Cloud verbinden</string>
+            <string>No se puede conectar con Steam Cloud</string>
+            <string>Impossible de se connecter à Steam Cloud</string>
+        </key>
+        <key name="RESULT_Error_ResourceNotFound">
+            <string>Save data does not exist on Steam Cloud</string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+        </key>
+        <key name="RESULT_Error_ResourceTooLarge">
+            <string>Resource is too large</string>
+            <string>リソースが大きすぎます</string>
+            <string>해당 리소스는 너무 큽니다</string>
+            <string>资源过大</string>
+            <string>Размер ресурса превышает допустимый предел</string>
+            <string>Ressource zu groß</string>
+            <string>El recurso es demasiado grande</string>
+            <string>Fichier trop volumineux</string>
+        </key>
+        <key name="RESULT_Error_UrlNotFound">
+            <string>Server resource could not be found</string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+        </key>
+        <key name="RESULT_Error_NetworkBlocked">
+            <string>Server actively blocked the request</string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+        </key>
+        <key name="RESULT_Error_ServerUnavailable">
+            <string>Cannot connect to server</string>
+            <string>サーバーに接続できません</string>
+            <string>서버에 연결할 수 없습니다</string>
+            <string>无法连接到服务器</string>
+            <string>Не удаётся подключиться к серверу</string>
+            <string>Kann nicht mit dem Server verbinden</string>
+            <string>No se puede conectar con el servidor</string>
+            <string>Impossible de se connecter au serveur</string>
+        </key>
+        <key name="RESULT_Error_ServiceUnavailable">
+            <string>Steam Cloud service is currrently unavailable</string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+        </key>
+        <key name="RESULT_Error_ServiceDisabled">
+            <string>Steam Cloud functionality is currently disabled</string>
+            <string>現在、Steam Cloudの機能はご利用いただけません</string>
+            <string>현재 스팀 클라우드 기능을 사용할 수 없습니다</string>
+            <string>Steam Cloud功能目前不可用</string>
+            <string>Функция Steam Cloud в настоящее время недоступна</string>
+            <string>Die Steam-Cloud ist gerade nicht verfügbar</string>
+            <string>Las funciones de Steam Cloud no están disponibles en este momento.</string>
+            <string>La synchronisation Steam Cloud est actuellement indisponible</string>
+        </key>
+        <key name="RESULT_Error_GeneralNetwork">
+            <string>General network error</string>
+            <string>一般的なネットワークエラー</string>
+            <string>네트워크 에러</string>
+            <string>一般网络错误</string>
+            <string>Общая сетевая ошибка</string>
+            <string>Allgemeiner Netzwerkfehler</string>
+            <string>Error general de red</string>
+            <string>Erreur de réseau</string>
+        </key>
+        <key name="RESULT_Error_DownloadFailed">
+            <string>Failed to download data</string>
+            <string>データのダウンロードに失敗しました</string>
+            <string>데이터 다운로드 실패</string>
+            <string>下载数据失败</string>
+            <string>Не удалось загрузить данные</string>
+            <string>Fehler beim Herunterladen der Daten</string>
+            <string>Error al descargar los datos</string>
+            <string>Une erreur s'est produite pendant le téléchargement des données</string>
+        </key>
+        <key name="RESULT_Error_WriteFailed">
+            <string>Failed to write downloaded data to local storage</string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+        </key>
+        <key name="RESULT_Error_UploadFailed">
+            <string>Failed to upload data</string>
+            <string>データのアップロードに失敗しました</string>
+            <string>데이터 업로드에 실패했습니다</string>
+            <string>上传数据失败</string>
+            <string>Не удалось загрузить данные</string>
+            <string>Konnte den Spielstand nicht hochladen</string>
+            <string>Error al subir los datos</string>
+            <string>Une erreur s'est produite pendant l'export de la sauvegarde</string>
+        </key>
+        <key name="RESULT_Error_ReadFailed">
+            <string>Failed to read data from local storage</string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+        </key>
+        <key name="STEAM_CLOUD_PERSISTENT_DATA_INCOMPATIBLE">
+            <string>Downloaded save is incompatible with this version of The Binding of Isaac: Repentance+</string>
+            <string>ダウンロードしたセーブデータは、このバージョンの『The Binding of Isaac: Repentance+』と互換性がありません</string>
+            <string>다운받은 저장 데이터가 현재 The Binding of Isaac: Repentance+ 버전과 호환되지 않습니다</string>
+            <string>下载的存档与该版本的 The Binding of Isaac: Repentance+ 不兼容</string>
+            <string>Загруженное сохранение несовместимо с этой версией The Binding of Isaac: Repentance+</string>
+            <string>Der heruntergeladene Spielstand kann mit dieser The Binding of Isaac: Repentance+-Version nicht verwendet werden</string>
+            <string>La partida guardada que se ha descargado no es compatible con esta versión de The Binding of Isaac: Repentance+</string>
+            <string>La sauvegarde importée est incompatible avec cette version de The Binding of Isaac: Repentance+</string>
+        </key>
+        <key name="STEAM_CLOUD_PERSISTENT_DATA_CORRUPT">
+            <string>Downloaded save is corrupt</string>
+            <string>ダウンロードしたセーブデータが破損しています</string>
+            <string>다운받은 저장 데이터가 손상되어 있습니다</string>
+            <string>下载的存档已损坏</string>
+            <string>Загруженный файл сохранения повреждён</string>
+            <string>Der heruntergeladene Spielstand ist fehlerhaft</string>
+            <string>La partida guardada que se ha descargado está corrupta</string>
+            <string>La sauvegarde importée est corrompue</string>
+        </key>
+        <key name="STEAM_CLOUD_GAME_STATE_INCOMPATIBLE">
+            <string>Downloaded run in progress is incompatible with this version of The Binding of Isaac: Repentance+ and will not be applied</string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+        </key>
+        <key name="STEAM_CLOUD_GAME_STATE_CORRUPT">
+            <string>Downloaded run in progress is corrupt and will not be applied</string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+        </key>
+        <key name="STEAM_CLOUD_RERUN_STATE_INCOMPATIBLE">
+            <string>Downloaded rerun is incompatible with this version of The Binding of Isaac: Repentance+ and will not be applied</string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+            <string></string>
+        </key>
+        <key name="STEAM_CLOUD_RERUN_STATE_CORRUPT">
+            <string>Downloaded rerun is corrupt and will not be applied</string>
             <string></string>
             <string></string>
             <string></string>
