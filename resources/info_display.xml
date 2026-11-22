@@ -2258,7 +2258,7 @@
 	</collectible>
 	<collectible id="465">
 		<info text="Allows firing tears diagonally"/>
-		<info text="If using a gamepad, allows full 360-degree aim"/>
+		<info text="Enables firing outside of cardinal directions"/>
 		<info collectible="706" text="&lt;color=0xFFc30404&gt;x1 locust 1x Isaac's damage"/>
 	</collectible>
 	<collectible id="466">
