@@ -18924,3 +18924,17 @@ resources/stringtable_pc.sta
 resources/translations.xml
 resources/translationstrings.ini
 resources/wisps.xml
+resources/music/repentance/promo/crime/deadend.ogg
+resources/music/repentance/promo/crime/deadendoutro.ogg
+resources/music/repentance/promo/crime/drivingsong1.ogg
+resources/music/repentance/promo/crime/drivingsong2.ogg
+resources/music/repentance/promo/crime/nowitnesses.ogg
+resources/music/repentance/promo/crime/nowitnessesintro.ogg
+resources/music/repentance/promo/crime/nowitnessesoutro.ogg
+resources/music/repentance/promo/crime/stealingsong.ogg
+resources/music/repentance/promo/crime/stealingsongoutro.ogg
+resources/music/repentance/promo/crime/theftsalvation.ogg
+resources/music/repentance/promo/crime/theftsalvationintro.ogg
+resources/music/repentance/promo/crime/theftsalvationoutro.ogg
+resources/music/repentance/promo/crime/wanteddead.ogg
+resources/music/repentance/promo/crime/wanteddeadoutro.ogg
